@@ -1,0 +1,1502 @@
+[
+  {
+    "airline": "Delta",
+    "flight_number": "DL 100",
+    "origin": "New York (JFK)",
+    "destination": "Los Angeles (LAX)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 327
+      },
+      "business": {
+        "price_per_seat": 898
+      }
+    },
+    "duration": 5.2
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 100",
+    "origin": "Dubai (DXB)",
+    "destination": "Bangalore (BLR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 164
+      },
+      "business": {
+        "price_per_seat": 425
+      }
+    },
+    "duration": 3.7
+  },
+  {
+    "airline": "Qantas",
+    "flight_number": "QF 100",
+    "origin": "Sydney (SYD)",
+    "destination": "Bangalore (BLR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 623
+      },
+      "business": {
+        "price_per_seat": 1925
+      }
+    },
+    "duration": 11.5
+  },
+  {
+    "airline": "Lufthansa",
+    "flight_number": "LH 100",
+    "origin": "Frankfurt (FRA)",
+    "destination": "Sydney (SYD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 1067
+      },
+      "business": {
+        "price_per_seat": 3689
+      }
+    },
+    "duration": 19.9
+  },
+  {
+    "airline": "Lufthansa",
+    "flight_number": "LH 101",
+    "origin": "Frankfurt (FRA)",
+    "destination": "Sydney (SYD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 1389
+      },
+      "business": {
+        "price_per_seat": 4486
+      }
+    },
+    "duration": 19.9
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 101",
+    "origin": "Frankfurt (FRA)",
+    "destination": "Bangalore (BLR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 572
+      },
+      "business": {
+        "price_per_seat": 1833
+      }
+    },
+    "duration": 9.2
+  },
+  {
+    "airline": "Air France",
+    "flight_number": "AF 100",
+    "origin": "Paris (CDG)",
+    "destination": "Frankfurt (FRA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 120
+      },
+      "business": {
+        "price_per_seat": 354
+      }
+    },
+    "duration": 1.0
+  },
+  {
+    "airline": "British Airways",
+    "flight_number": "BA 100",
+    "origin": "London (LHR)",
+    "destination": "Paris (CDG)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 120
+      },
+      "business": {
+        "price_per_seat": 321
+      }
+    },
+    "duration": 0.9
+  },
+  {
+    "airline": "Qantas",
+    "flight_number": "QF 101",
+    "origin": "Sydney (SYD)",
+    "destination": "Singapore (SIN)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 507
+      },
+      "business": {
+        "price_per_seat": 1695
+      }
+    },
+    "duration": 7.9
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 100",
+    "origin": "Dubai (DXB)",
+    "destination": "Sydney (SYD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 747
+      },
+      "business": {
+        "price_per_seat": 2550
+      }
+    },
+    "duration": 14.7
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 101",
+    "origin": "Tokyo (NRT)",
+    "destination": "Dubai (DXB)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 513
+      },
+      "business": {
+        "price_per_seat": 1354
+      }
+    },
+    "duration": 9.9
+  },
+  {
+    "airline": "Lufthansa",
+    "flight_number": "LH 102",
+    "origin": "Frankfurt (FRA)",
+    "destination": "Dubai (DXB)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 435
+      },
+      "business": {
+        "price_per_seat": 1148
+      }
+    },
+    "duration": 6.2
+  },
+  {
+    "airline": "United",
+    "flight_number": "UA 100",
+    "origin": "Sydney (SYD)",
+    "destination": "Los Angeles (LAX)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 876
+      },
+      "business": {
+        "price_per_seat": 2246
+      }
+    },
+    "duration": 14.7
+  },
+  {
+    "airline": "Delta",
+    "flight_number": "DL 101",
+    "origin": "Sydney (SYD)",
+    "destination": "Los Angeles (LAX)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 1044
+      },
+      "business": {
+        "price_per_seat": 3394
+      }
+    },
+    "duration": 14.7
+  },
+  {
+    "airline": "United",
+    "flight_number": "UA 101",
+    "origin": "Frankfurt (FRA)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 372
+      },
+      "business": {
+        "price_per_seat": 1199
+      }
+    },
+    "duration": 7.8
+  },
+  {
+    "airline": "British Airways",
+    "flight_number": "BA 101",
+    "origin": "Dubai (DXB)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 430
+      },
+      "business": {
+        "price_per_seat": 1141
+      }
+    },
+    "duration": 7.0
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 102",
+    "origin": "Paris (CDG)",
+    "destination": "Bangalore (BLR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 584
+      },
+      "business": {
+        "price_per_seat": 1525
+      }
+    },
+    "duration": 9.7
+  },
+  {
+    "airline": "Air France",
+    "flight_number": "AF 101",
+    "origin": "Paris (CDG)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 120
+      },
+      "business": {
+        "price_per_seat": 358
+      }
+    },
+    "duration": 0.9
+  },
+  {
+    "airline": "Singapore Airlines",
+    "flight_number": "SQ 100",
+    "origin": "Sydney (SYD)",
+    "destination": "Singapore (SIN)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 409
+      },
+      "business": {
+        "price_per_seat": 1238
+      }
+    },
+    "duration": 7.9
+  },
+  {
+    "airline": "British Airways",
+    "flight_number": "BA 102",
+    "origin": "Frankfurt (FRA)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 120
+      },
+      "business": {
+        "price_per_seat": 378
+      }
+    },
+    "duration": 1.3
+  },
+  {
+    "airline": "Air France",
+    "flight_number": "AF 102",
+    "origin": "Paris (CDG)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 120
+      },
+      "business": {
+        "price_per_seat": 371
+      }
+    },
+    "duration": 0.9
+  },
+  {
+    "airline": "Air France",
+    "flight_number": "AF 103",
+    "origin": "Paris (CDG)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 120
+      },
+      "business": {
+        "price_per_seat": 403
+      }
+    },
+    "duration": 0.9
+  },
+  {
+    "airline": "Qantas",
+    "flight_number": "QF 102",
+    "origin": "Sydney (SYD)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 1391
+      },
+      "business": {
+        "price_per_seat": 4705
+      }
+    },
+    "duration": 20.5
+  },
+  {
+    "airline": "Air France",
+    "flight_number": "AF 104",
+    "origin": "Paris (CDG)",
+    "destination": "Frankfurt (FRA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 120
+      },
+      "business": {
+        "price_per_seat": 352
+      }
+    },
+    "duration": 1.0
+  },
+  {
+    "airline": "American Airlines",
+    "flight_number": "AA 100",
+    "origin": "Los Angeles (LAX)",
+    "destination": "Sydney (SYD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 987
+      },
+      "business": {
+        "price_per_seat": 3258
+      }
+    },
+    "duration": 14.7
+  },
+  {
+    "airline": "United",
+    "flight_number": "UA 102",
+    "origin": "London (LHR)",
+    "destination": "Los Angeles (LAX)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 574
+      },
+      "business": {
+        "price_per_seat": 1701
+      }
+    },
+    "duration": 10.8
+  },
+  {
+    "airline": "American Airlines",
+    "flight_number": "AA 101",
+    "origin": "Tokyo (NRT)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 975
+      },
+      "business": {
+        "price_per_seat": 3253
+      }
+    },
+    "duration": 13.2
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 102",
+    "origin": "Singapore (SIN)",
+    "destination": "Dubai (DXB)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 435
+      },
+      "business": {
+        "price_per_seat": 1464
+      }
+    },
+    "duration": 7.4
+  },
+  {
+    "airline": "British Airways",
+    "flight_number": "BA 103",
+    "origin": "Singapore (SIN)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 746
+      },
+      "business": {
+        "price_per_seat": 2385
+      }
+    },
+    "duration": 13.3
+  },
+  {
+    "airline": "Air France",
+    "flight_number": "AF 105",
+    "origin": "New York (JFK)",
+    "destination": "Paris (CDG)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 388
+      },
+      "business": {
+        "price_per_seat": 993
+      }
+    },
+    "duration": 7.4
+  },
+  {
+    "airline": "American Airlines",
+    "flight_number": "AA 102",
+    "origin": "Frankfurt (FRA)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 460
+      },
+      "business": {
+        "price_per_seat": 1573
+      }
+    },
+    "duration": 7.8
+  },
+  {
+    "airline": "Delta",
+    "flight_number": "DL 102",
+    "origin": "Tokyo (NRT)",
+    "destination": "Los Angeles (LAX)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 543
+      },
+      "business": {
+        "price_per_seat": 1825
+      }
+    },
+    "duration": 10.8
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 103",
+    "origin": "Bangalore (BLR)",
+    "destination": "Dubai (DXB)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 187
+      },
+      "business": {
+        "price_per_seat": 516
+      }
+    },
+    "duration": 3.7
+  },
+  {
+    "airline": "United",
+    "flight_number": "UA 103",
+    "origin": "Sydney (SYD)",
+    "destination": "Los Angeles (LAX)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 957
+      },
+      "business": {
+        "price_per_seat": 2830
+      }
+    },
+    "duration": 14.7
+  },
+  {
+    "airline": "Delta",
+    "flight_number": "DL 103",
+    "origin": "Frankfurt (FRA)",
+    "destination": "Los Angeles (LAX)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 619
+      },
+      "business": {
+        "price_per_seat": 1712
+      }
+    },
+    "duration": 11.5
+  },
+  {
+    "airline": "British Airways",
+    "flight_number": "BA 104",
+    "origin": "London (LHR)",
+    "destination": "Singapore (SIN)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 796
+      },
+      "business": {
+        "price_per_seat": 2422
+      }
+    },
+    "duration": 13.3
+  },
+  {
+    "airline": "Qantas",
+    "flight_number": "QF 103",
+    "origin": "Sydney (SYD)",
+    "destination": "Tokyo (NRT)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 689
+      },
+      "business": {
+        "price_per_seat": 1794
+      }
+    },
+    "duration": 9.7
+  },
+  {
+    "airline": "British Airways",
+    "flight_number": "BA 105",
+    "origin": "New York (JFK)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 433
+      },
+      "business": {
+        "price_per_seat": 1393
+      }
+    },
+    "duration": 7.0
+  },
+  {
+    "airline": "British Airways",
+    "flight_number": "BA 106",
+    "origin": "London (LHR)",
+    "destination": "Los Angeles (LAX)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 550
+      },
+      "business": {
+        "price_per_seat": 1608
+      }
+    },
+    "duration": 10.8
+  },
+  {
+    "airline": "United",
+    "flight_number": "UA 104",
+    "origin": "Frankfurt (FRA)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 474
+      },
+      "business": {
+        "price_per_seat": 1388
+      }
+    },
+    "duration": 7.8
+  },
+  {
+    "airline": "Lufthansa",
+    "flight_number": "LH 103",
+    "origin": "Sydney (SYD)",
+    "destination": "Frankfurt (FRA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 1063
+      },
+      "business": {
+        "price_per_seat": 2793
+      }
+    },
+    "duration": 19.9
+  },
+  {
+    "airline": "Air France",
+    "flight_number": "AF 106",
+    "origin": "Paris (CDG)",
+    "destination": "Dubai (DXB)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 419
+      },
+      "business": {
+        "price_per_seat": 1196
+      }
+    },
+    "duration": 6.7
+  },
+  {
+    "airline": "United",
+    "flight_number": "UA 105",
+    "origin": "New York (JFK)",
+    "destination": "Sydney (SYD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 1384
+      },
+      "business": {
+        "price_per_seat": 3494
+      }
+    },
+    "duration": 19.3
+  },
+  {
+    "airline": "British Airways",
+    "flight_number": "BA 107",
+    "origin": "London (LHR)",
+    "destination": "Singapore (SIN)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 910
+      },
+      "business": {
+        "price_per_seat": 2373
+      }
+    },
+    "duration": 13.3
+  },
+  {
+    "airline": "Lufthansa",
+    "flight_number": "LH 104",
+    "origin": "New York (JFK)",
+    "destination": "Frankfurt (FRA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 524
+      },
+      "business": {
+        "price_per_seat": 1767
+      }
+    },
+    "duration": 7.8
+  },
+  {
+    "airline": "British Airways",
+    "flight_number": "BA 108",
+    "origin": "London (LHR)",
+    "destination": "Paris (CDG)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 120
+      },
+      "business": {
+        "price_per_seat": 333
+      }
+    },
+    "duration": 0.9
+  },
+  {
+    "airline": "American Airlines",
+    "flight_number": "AA 103",
+    "origin": "New York (JFK)",
+    "destination": "Frankfurt (FRA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 534
+      },
+      "business": {
+        "price_per_seat": 1474
+      }
+    },
+    "duration": 7.8
+  },
+  {
+    "airline": "Lufthansa",
+    "flight_number": "LH 105",
+    "origin": "Los Angeles (LAX)",
+    "destination": "Frankfurt (FRA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 681
+      },
+      "business": {
+        "price_per_seat": 2373
+      }
+    },
+    "duration": 11.5
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 104",
+    "origin": "Dubai (DXB)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 832
+      },
+      "business": {
+        "price_per_seat": 2751
+      }
+    },
+    "duration": 13.4
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 105",
+    "origin": "Dubai (DXB)",
+    "destination": "Paris (CDG)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 463
+      },
+      "business": {
+        "price_per_seat": 1584
+      }
+    },
+    "duration": 6.7
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 106",
+    "origin": "Los Angeles (LAX)",
+    "destination": "Dubai (DXB)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 966
+      },
+      "business": {
+        "price_per_seat": 2701
+      }
+    },
+    "duration": 16.3
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 103",
+    "origin": "London (LHR)",
+    "destination": "Bangalore (BLR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 581
+      },
+      "business": {
+        "price_per_seat": 1937
+      }
+    },
+    "duration": 10.0
+  },
+  {
+    "airline": "Singapore Airlines",
+    "flight_number": "SQ 101",
+    "origin": "Tokyo (NRT)",
+    "destination": "Singapore (SIN)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 430
+      },
+      "business": {
+        "price_per_seat": 1295
+      }
+    },
+    "duration": 6.8
+  },
+  {
+    "airline": "Qantas",
+    "flight_number": "QF 104",
+    "origin": "Singapore (SIN)",
+    "destination": "Sydney (SYD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 497
+      },
+      "business": {
+        "price_per_seat": 1409
+      }
+    },
+    "duration": 7.9
+  },
+  {
+    "airline": "Air France",
+    "flight_number": "AF 107",
+    "origin": "Paris (CDG)",
+    "destination": "Tokyo (NRT)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 590
+      },
+      "business": {
+        "price_per_seat": 1619
+      }
+    },
+    "duration": 11.9
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 104",
+    "origin": "Bangalore (BLR)",
+    "destination": "Tokyo (NRT)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 546
+      },
+      "business": {
+        "price_per_seat": 1575
+      }
+    },
+    "duration": 8.4
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 107",
+    "origin": "Dubai (DXB)",
+    "destination": "Bangalore (BLR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 176
+      },
+      "business": {
+        "price_per_seat": 609
+      }
+    },
+    "duration": 3.7
+  },
+  {
+    "airline": "Singapore Airlines",
+    "flight_number": "SQ 102",
+    "origin": "Singapore (SIN)",
+    "destination": "Frankfurt (FRA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 864
+      },
+      "business": {
+        "price_per_seat": 2737
+      }
+    },
+    "duration": 12.6
+  },
+  {
+    "airline": "Qantas",
+    "flight_number": "QF 105",
+    "origin": "New York (JFK)",
+    "destination": "Sydney (SYD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 1392
+      },
+      "business": {
+        "price_per_seat": 4515
+      }
+    },
+    "duration": 19.3
+  },
+  {
+    "airline": "Qantas",
+    "flight_number": "QF 106",
+    "origin": "New York (JFK)",
+    "destination": "Sydney (SYD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 1262
+      },
+      "business": {
+        "price_per_seat": 3502
+      }
+    },
+    "duration": 19.3
+  },
+  {
+    "airline": "Lufthansa",
+    "flight_number": "LH 106",
+    "origin": "Sydney (SYD)",
+    "destination": "Frankfurt (FRA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 1030
+      },
+      "business": {
+        "price_per_seat": 2730
+      }
+    },
+    "duration": 19.9
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 108",
+    "origin": "Frankfurt (FRA)",
+    "destination": "Dubai (DXB)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 339
+      },
+      "business": {
+        "price_per_seat": 1005
+      }
+    },
+    "duration": 6.2
+  },
+  {
+    "airline": "Singapore Airlines",
+    "flight_number": "SQ 103",
+    "origin": "Singapore (SIN)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 1354
+      },
+      "business": {
+        "price_per_seat": 3789
+      }
+    },
+    "duration": 18.5
+  },
+  {
+    "airline": "Singapore Airlines",
+    "flight_number": "SQ 104",
+    "origin": "Singapore (SIN)",
+    "destination": "Dubai (DXB)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 399
+      },
+      "business": {
+        "price_per_seat": 1191
+      }
+    },
+    "duration": 7.4
+  },
+  {
+    "airline": "United",
+    "flight_number": "UA 106",
+    "origin": "Singapore (SIN)",
+    "destination": "Los Angeles (LAX)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 1072
+      },
+      "business": {
+        "price_per_seat": 3652
+      }
+    },
+    "duration": 17.1
+  },
+  {
+    "airline": "United",
+    "flight_number": "UA 107",
+    "origin": "Frankfurt (FRA)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 405
+      },
+      "business": {
+        "price_per_seat": 1118
+      }
+    },
+    "duration": 7.8
+  },
+  {
+    "airline": "British Airways",
+    "flight_number": "BA 109",
+    "origin": "Tokyo (NRT)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 648
+      },
+      "business": {
+        "price_per_seat": 1673
+      }
+    },
+    "duration": 11.8
+  },
+  {
+    "airline": "Delta",
+    "flight_number": "DL 104",
+    "origin": "Sydney (SYD)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 980
+      },
+      "business": {
+        "price_per_seat": 2480
+      }
+    },
+    "duration": 19.3
+  },
+  {
+    "airline": "United",
+    "flight_number": "UA 108",
+    "origin": "Frankfurt (FRA)",
+    "destination": "Los Angeles (LAX)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 747
+      },
+      "business": {
+        "price_per_seat": 2289
+      }
+    },
+    "duration": 11.5
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 105",
+    "origin": "Bangalore (BLR)",
+    "destination": "Frankfurt (FRA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 617
+      },
+      "business": {
+        "price_per_seat": 1644
+      }
+    },
+    "duration": 9.2
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 109",
+    "origin": "Dubai (DXB)",
+    "destination": "Singapore (SIN)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 364
+      },
+      "business": {
+        "price_per_seat": 1161
+      }
+    },
+    "duration": 7.4
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 106",
+    "origin": "Bangalore (BLR)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 567
+      },
+      "business": {
+        "price_per_seat": 1660
+      }
+    },
+    "duration": 10.0
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 110",
+    "origin": "Singapore (SIN)",
+    "destination": "Dubai (DXB)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 369
+      },
+      "business": {
+        "price_per_seat": 1277
+      }
+    },
+    "duration": 7.4
+  },
+  {
+    "airline": "United",
+    "flight_number": "UA 109",
+    "origin": "Tokyo (NRT)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 964
+      },
+      "business": {
+        "price_per_seat": 2670
+      }
+    },
+    "duration": 13.2
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 111",
+    "origin": "Dubai (DXB)",
+    "destination": "Sydney (SYD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 839
+      },
+      "business": {
+        "price_per_seat": 2303
+      }
+    },
+    "duration": 14.7
+  },
+  {
+    "airline": "Singapore Airlines",
+    "flight_number": "SQ 105",
+    "origin": "London (LHR)",
+    "destination": "Singapore (SIN)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 763
+      },
+      "business": {
+        "price_per_seat": 2285
+      }
+    },
+    "duration": 13.3
+  },
+  {
+    "airline": "Lufthansa",
+    "flight_number": "LH 107",
+    "origin": "Frankfurt (FRA)",
+    "destination": "Sydney (SYD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 1426
+      },
+      "business": {
+        "price_per_seat": 4565
+      }
+    },
+    "duration": 19.9
+  },
+  {
+    "airline": "Air France",
+    "flight_number": "AF 108",
+    "origin": "Tokyo (NRT)",
+    "destination": "Paris (CDG)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 725
+      },
+      "business": {
+        "price_per_seat": 2362
+      }
+    },
+    "duration": 11.9
+  },
+  {
+    "airline": "American Airlines",
+    "flight_number": "AA 104",
+    "origin": "New York (JFK)",
+    "destination": "Paris (CDG)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 402
+      },
+      "business": {
+        "price_per_seat": 1168
+      }
+    },
+    "duration": 7.4
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 112",
+    "origin": "Sydney (SYD)",
+    "destination": "Dubai (DXB)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 842
+      },
+      "business": {
+        "price_per_seat": 2697
+      }
+    },
+    "duration": 14.7
+  },
+  {
+    "airline": "Lufthansa",
+    "flight_number": "LH 108",
+    "origin": "Frankfurt (FRA)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 120
+      },
+      "business": {
+        "price_per_seat": 414
+      }
+    },
+    "duration": 1.3
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 107",
+    "origin": "London (LHR)",
+    "destination": "Bangalore (BLR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 719
+      },
+      "business": {
+        "price_per_seat": 2396
+      }
+    },
+    "duration": 10.0
+  },
+  {
+    "airline": "Qantas",
+    "flight_number": "QF 107",
+    "origin": "Sydney (SYD)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 1161
+      },
+      "business": {
+        "price_per_seat": 4034
+      }
+    },
+    "duration": 20.5
+  },
+  {
+    "airline": "American Airlines",
+    "flight_number": "AA 105",
+    "origin": "Frankfurt (FRA)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 424
+      },
+      "business": {
+        "price_per_seat": 1263
+      }
+    },
+    "duration": 7.8
+  },
+  {
+    "airline": "Delta",
+    "flight_number": "DL 105",
+    "origin": "London (LHR)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 414
+      },
+      "business": {
+        "price_per_seat": 1274
+      }
+    },
+    "duration": 7.0
+  },
+  {
+    "airline": "Air France",
+    "flight_number": "AF 109",
+    "origin": "Paris (CDG)",
+    "destination": "Frankfurt (FRA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 120
+      },
+      "business": {
+        "price_per_seat": 350
+      }
+    },
+    "duration": 1.0
+  },
+  {
+    "airline": "Singapore Airlines",
+    "flight_number": "SQ 106",
+    "origin": "Tokyo (NRT)",
+    "destination": "Singapore (SIN)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 369
+      },
+      "business": {
+        "price_per_seat": 1140
+      }
+    },
+    "duration": 6.8
+  },
+  {
+    "airline": "Air France",
+    "flight_number": "AF 110",
+    "origin": "Paris (CDG)",
+    "destination": "Bangalore (BLR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 532
+      },
+      "business": {
+        "price_per_seat": 1373
+      }
+    },
+    "duration": 9.7
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 113",
+    "origin": "Tokyo (NRT)",
+    "destination": "Dubai (DXB)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 644
+      },
+      "business": {
+        "price_per_seat": 1913
+      }
+    },
+    "duration": 9.9
+  },
+  {
+    "airline": "Delta",
+    "flight_number": "DL 106",
+    "origin": "Sydney (SYD)",
+    "destination": "Los Angeles (LAX)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 808
+      },
+      "business": {
+        "price_per_seat": 2234
+      }
+    },
+    "duration": 14.7
+  },
+  {
+    "airline": "Delta",
+    "flight_number": "DL 107",
+    "origin": "Frankfurt (FRA)",
+    "destination": "Los Angeles (LAX)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 622
+      },
+      "business": {
+        "price_per_seat": 1648
+      }
+    },
+    "duration": 11.5
+  },
+  {
+    "airline": "British Airways",
+    "flight_number": "BA 110",
+    "origin": "New York (JFK)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 405
+      },
+      "business": {
+        "price_per_seat": 1202
+      }
+    },
+    "duration": 7.0
+  },
+  {
+    "airline": "Singapore Airlines",
+    "flight_number": "SQ 107",
+    "origin": "Singapore (SIN)",
+    "destination": "Paris (CDG)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 836
+      },
+      "business": {
+        "price_per_seat": 2834
+      }
+    },
+    "duration": 13.1
+  },
+  {
+    "airline": "Air France",
+    "flight_number": "AF 111",
+    "origin": "Paris (CDG)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 525
+      },
+      "business": {
+        "price_per_seat": 1665
+      }
+    },
+    "duration": 7.4
+  },
+  {
+    "airline": "Qantas",
+    "flight_number": "QF 108",
+    "origin": "Singapore (SIN)",
+    "destination": "Sydney (SYD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 461
+      },
+      "business": {
+        "price_per_seat": 1281
+      }
+    },
+    "duration": 7.9
+  },
+  {
+    "airline": "Singapore Airlines",
+    "flight_number": "SQ 108",
+    "origin": "Paris (CDG)",
+    "destination": "Singapore (SIN)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 775
+      },
+      "business": {
+        "price_per_seat": 2186
+      }
+    },
+    "duration": 13.1
+  },
+  {
+    "airline": "British Airways",
+    "flight_number": "BA 111",
+    "origin": "Frankfurt (FRA)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 120
+      },
+      "business": {
+        "price_per_seat": 366
+      }
+    },
+    "duration": 1.3
+  },
+  {
+    "airline": "Emirates",
+    "flight_number": "EK 114",
+    "origin": "Bangalore (BLR)",
+    "destination": "Dubai (DXB)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 228
+      },
+      "business": {
+        "price_per_seat": 570
+      }
+    },
+    "duration": 3.7
+  },
+  {
+    "airline": "Qantas",
+    "flight_number": "QF 109",
+    "origin": "Sydney (SYD)",
+    "destination": "Dubai (DXB)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 948
+      },
+      "business": {
+        "price_per_seat": 2843
+      }
+    },
+    "duration": 14.7
+  },
+  {
+    "airline": "British Airways",
+    "flight_number": "BA 112",
+    "origin": "Singapore (SIN)",
+    "destination": "London (LHR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 941
+      },
+      "business": {
+        "price_per_seat": 2809
+      }
+    },
+    "duration": 13.3
+  }
+]

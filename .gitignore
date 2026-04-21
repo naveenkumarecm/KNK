@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+dist/
+venv/
+.env
+
+# Node
+node_modules/
+frontend/build/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Lambda deploy artifacts
+lambdas/*.zip
+
+# IDE
+.vscode/
+.idea/

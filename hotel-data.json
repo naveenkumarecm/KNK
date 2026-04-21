@@ -1,0 +1,7238 @@
+[
+  {
+    "hotel_name": "InterContinental Lodge",
+    "locality": "Midtown",
+    "city": "JFK",
+    "price_per_night": 207,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "gym",
+      "pool",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Royal Orchid",
+    "locality": "Santa Monica",
+    "city": "LAX",
+    "price_per_night": 77,
+    "star_rating": 2,
+    "amenity_list": [
+      "breakfast",
+      "laundry",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Terrace",
+    "locality": "Pigalle",
+    "city": "CDG",
+    "price_per_night": 257,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "gym",
+      "laundry",
+      "parking",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Marriott Crown",
+    "locality": "Shoreditch",
+    "city": "LHR",
+    "price_per_night": 93,
+    "star_rating": 3,
+    "amenity_list": [
+      "ev_charging",
+      "pool",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Palace",
+    "locality": "Gallus",
+    "city": "FRA",
+    "price_per_night": 849,
+    "star_rating": 5,
+    "amenity_list": [
+      "breakfast",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "pool",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Resort",
+    "locality": "Asakusa",
+    "city": "NRT",
+    "price_per_night": 170,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "parking",
+      "pet_friendly",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Taj Continental",
+    "locality": "Newtown",
+    "city": "SYD",
+    "price_per_night": 106,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "parking"
+    ]
+  },
+  {
+    "hotel_name": "Taj Horizon",
+    "locality": "Deira",
+    "city": "DXB",
+    "price_per_night": 70,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "parking",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Crown",
+    "locality": "Indiranagar",
+    "city": "BLR",
+    "price_per_night": 109,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "pet_friendly",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Courtyard Oasis",
+    "locality": "Clarke Quay",
+    "city": "SIN",
+    "price_per_night": 107,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "ev_charging",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Park Resort",
+    "locality": "Upper East Side",
+    "city": "JFK",
+    "price_per_night": 148,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "laundry",
+      "parking",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Park Signature",
+    "locality": "Pasadena",
+    "city": "LAX",
+    "price_per_night": 91,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "gym",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Shangri-La Haven",
+    "locality": "Montmartre",
+    "city": "CDG",
+    "price_per_night": 248,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "laundry",
+      "parking",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Horizon",
+    "locality": "Camden",
+    "city": "LHR",
+    "price_per_night": 346,
+    "star_rating": 4,
+    "amenity_list": [
+      "concierge",
+      "parking",
+      "pool",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Vista",
+    "locality": "Bornheim",
+    "city": "FRA",
+    "price_per_night": 114,
+    "star_rating": 2,
+    "amenity_list": [
+      "business_center",
+      "gym",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Retreat",
+    "locality": "Odaiba",
+    "city": "NRT",
+    "price_per_night": 503,
+    "star_rating": 5,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "pet_friendly",
+      "room_service",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Courtyard Continental",
+    "locality": "Manly",
+    "city": "SYD",
+    "price_per_night": 110,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "laundry",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Residency",
+    "locality": "JBR",
+    "city": "DXB",
+    "price_per_night": 66,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "gym",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "W Haven",
+    "locality": "Malleshwaram",
+    "city": "BLR",
+    "price_per_night": 77,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Retreat",
+    "locality": "Clarke Quay",
+    "city": "SIN",
+    "price_per_night": 262,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "concierge",
+      "ev_charging",
+      "pool",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Horizon",
+    "locality": "Midtown",
+    "city": "JFK",
+    "price_per_night": 78,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hotel Palace",
+    "locality": "Westwood",
+    "city": "LAX",
+    "price_per_night": 168,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "concierge",
+      "parking",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Oasis",
+    "locality": "Trocad\u00e9ro",
+    "city": "CDG",
+    "price_per_night": 140,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "business_center",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Majestic",
+    "locality": "Shoreditch",
+    "city": "LHR",
+    "price_per_night": 104,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Towers",
+    "locality": "Altstadt",
+    "city": "FRA",
+    "price_per_night": 101,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Suites",
+    "locality": "Ueno",
+    "city": "NRT",
+    "price_per_night": 73,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "parking",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "The Palace",
+    "locality": "Paddington",
+    "city": "SYD",
+    "price_per_night": 315,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "business_center",
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Taj Imperial",
+    "locality": "Downtown Dubai",
+    "city": "DXB",
+    "price_per_night": 699,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "ev_charging",
+      "parking",
+      "pet_friendly",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Le M\u00e9ridien Horizon",
+    "locality": "HSR Layout",
+    "city": "BLR",
+    "price_per_night": 189,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Royal Oasis",
+    "locality": "Tanjong Pagar",
+    "city": "SIN",
+    "price_per_night": 278,
+    "star_rating": 4,
+    "amenity_list": [
+      "ev_charging",
+      "gym",
+      "pet_friendly",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "W Plaza",
+    "locality": "Brooklyn",
+    "city": "JFK",
+    "price_per_night": 369,
+    "star_rating": 5,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "laundry",
+      "pet_friendly",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Royal Haven",
+    "locality": "Santa Monica",
+    "city": "LAX",
+    "price_per_night": 133,
+    "star_rating": 3,
+    "amenity_list": [
+      "concierge",
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Resort",
+    "locality": "Bastille",
+    "city": "CDG",
+    "price_per_night": 130,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "gym",
+      "parking",
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Elite",
+    "locality": "Bloomsbury",
+    "city": "LHR",
+    "price_per_night": 876,
+    "star_rating": 5,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "parking",
+      "pool",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Residency",
+    "locality": "Nordend",
+    "city": "FRA",
+    "price_per_night": 97,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "gym",
+      "parking",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Le M\u00e9ridien Retreat",
+    "locality": "Odaiba",
+    "city": "NRT",
+    "price_per_night": 152,
+    "star_rating": 4,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "gym",
+      "parking",
+      "pet_friendly",
+      "pool",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Horizon",
+    "locality": "Surry Hills",
+    "city": "SYD",
+    "price_per_night": 114,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "laundry",
+      "parking"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Lodge",
+    "locality": "JBR",
+    "city": "DXB",
+    "price_per_night": 142,
+    "star_rating": 3,
+    "amenity_list": [
+      "concierge",
+      "parking",
+      "pet_friendly",
+      "pool",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Heritage",
+    "locality": "MG Road",
+    "city": "BLR",
+    "price_per_night": 568,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "gym",
+      "pet_friendly",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Terrace",
+    "locality": "Chinatown",
+    "city": "SIN",
+    "price_per_night": 64,
+    "star_rating": 1,
+    "amenity_list": [
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Park Majestic",
+    "locality": "Queens",
+    "city": "JFK",
+    "price_per_night": 85,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "parking",
+      "pet_friendly",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Continental",
+    "locality": "Culver City",
+    "city": "LAX",
+    "price_per_night": 376,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "concierge",
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Majestic",
+    "locality": "Le Marais",
+    "city": "CDG",
+    "price_per_night": 483,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "concierge",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "The Imperial",
+    "locality": "Westminster",
+    "city": "LHR",
+    "price_per_night": 189,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "ev_charging",
+      "parking",
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Orchid",
+    "locality": "Nordend",
+    "city": "FRA",
+    "price_per_night": 708,
+    "star_rating": 5,
+    "amenity_list": [
+      "ev_charging",
+      "parking",
+      "pet_friendly",
+      "pool",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Orchid",
+    "locality": "Shibuya",
+    "city": "NRT",
+    "price_per_night": 192,
+    "star_rating": 3,
+    "amenity_list": [
+      "ev_charging",
+      "gym",
+      "laundry",
+      "parking",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Heritage",
+    "locality": "Pyrmont",
+    "city": "SYD",
+    "price_per_night": 305,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "laundry",
+      "parking",
+      "pool",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Signature",
+    "locality": "JBR",
+    "city": "DXB",
+    "price_per_night": 42,
+    "star_rating": 1,
+    "amenity_list": [
+      "pool",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Westin Heritage",
+    "locality": "Koramangala",
+    "city": "BLR",
+    "price_per_night": 607,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "parking",
+      "pet_friendly",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Shangri-La Gardens",
+    "locality": "Little India",
+    "city": "SIN",
+    "price_per_night": 323,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "gym",
+      "laundry",
+      "parking"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Regency",
+    "locality": "Midtown",
+    "city": "JFK",
+    "price_per_night": 135,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "laundry",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Gardens",
+    "locality": "Venice Beach",
+    "city": "LAX",
+    "price_per_night": 145,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "gym",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Gardens",
+    "locality": "Trocad\u00e9ro",
+    "city": "CDG",
+    "price_per_night": 235,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "concierge",
+      "parking",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Park Orchid",
+    "locality": "Westminster",
+    "city": "LHR",
+    "price_per_night": 111,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "laundry",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Inn",
+    "locality": "Bahnhofsviertel",
+    "city": "FRA",
+    "price_per_night": 143,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "gym",
+      "pool",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Taj Terrace",
+    "locality": "Odaiba",
+    "city": "NRT",
+    "price_per_night": 268,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "pool",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Signature",
+    "locality": "Paddington",
+    "city": "SYD",
+    "price_per_night": 90,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "laundry"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Horizon",
+    "locality": "Al Barsha",
+    "city": "DXB",
+    "price_per_night": 462,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "business_center",
+      "concierge",
+      "parking",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Retreat",
+    "locality": "Whitefield",
+    "city": "BLR",
+    "price_per_night": 220,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "business_center",
+      "parking",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hotel Suites",
+    "locality": "Chinatown",
+    "city": "SIN",
+    "price_per_night": 109,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "gym",
+      "pet_friendly",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Peninsula Elite",
+    "locality": "Harlem",
+    "city": "JFK",
+    "price_per_night": 87,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "laundry",
+      "pet_friendly",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "W Crown",
+    "locality": "Silver Lake",
+    "city": "LAX",
+    "price_per_night": 689,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "parking",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Peninsula Haven",
+    "locality": "Champs-\u00c9lys\u00e9es",
+    "city": "CDG",
+    "price_per_night": 274,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "business_center",
+      "parking",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Plaza",
+    "locality": "Notting Hill",
+    "city": "LHR",
+    "price_per_night": 385,
+    "star_rating": 4,
+    "amenity_list": [
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hotel Retreat",
+    "locality": "Bahnhofsviertel",
+    "city": "FRA",
+    "price_per_night": 184,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "gym",
+      "parking",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Heritage",
+    "locality": "Akihabara",
+    "city": "NRT",
+    "price_per_night": 177,
+    "star_rating": 3,
+    "amenity_list": [
+      "ev_charging",
+      "parking",
+      "pet_friendly",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Orchid",
+    "locality": "Paddington",
+    "city": "SYD",
+    "price_per_night": 86,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Royal Crown",
+    "locality": "Downtown Dubai",
+    "city": "DXB",
+    "price_per_night": 393,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Inn",
+    "locality": "HSR Layout",
+    "city": "BLR",
+    "price_per_night": 169,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "gym",
+      "parking",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Towers",
+    "locality": "Chinatown",
+    "city": "SIN",
+    "price_per_night": 396,
+    "star_rating": 4,
+    "amenity_list": [
+      "business_center",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "pool",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Marriott Residency",
+    "locality": "Greenwich Village",
+    "city": "JFK",
+    "price_per_night": 168,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Le M\u00e9ridien Palace",
+    "locality": "Westwood",
+    "city": "LAX",
+    "price_per_night": 845,
+    "star_rating": 5,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "pool",
+      "restaurant",
+      "room_service",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Shangri-La Continental",
+    "locality": "Belleville",
+    "city": "CDG",
+    "price_per_night": 456,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "gym",
+      "parking",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "JW Premier",
+    "locality": "Notting Hill",
+    "city": "LHR",
+    "price_per_night": 261,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Crown",
+    "locality": "Gallus",
+    "city": "FRA",
+    "price_per_night": 152,
+    "star_rating": 3,
+    "amenity_list": [
+      "concierge",
+      "laundry",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Taj Premier",
+    "locality": "Roppongi",
+    "city": "NRT",
+    "price_per_night": 125,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Peninsula Orchid",
+    "locality": "Paddington",
+    "city": "SYD",
+    "price_per_night": 392,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "ev_charging",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Premier",
+    "locality": "Al Barsha",
+    "city": "DXB",
+    "price_per_night": 264,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "parking",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Gardens",
+    "locality": "Rajajinagar",
+    "city": "BLR",
+    "price_per_night": 127,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "pet_friendly",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Peninsula Heritage",
+    "locality": "Clarke Quay",
+    "city": "SIN",
+    "price_per_night": 169,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "business_center",
+      "parking",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "The Vista",
+    "locality": "Upper East Side",
+    "city": "JFK",
+    "price_per_night": 393,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "business_center",
+      "gym",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "JW Signature",
+    "locality": "Silver Lake",
+    "city": "LAX",
+    "price_per_night": 116,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "parking",
+      "pet_friendly",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Horizon",
+    "locality": "Saint-Germain",
+    "city": "CDG",
+    "price_per_night": 85,
+    "star_rating": 2,
+    "amenity_list": [
+      "ev_charging",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Crown",
+    "locality": "Notting Hill",
+    "city": "LHR",
+    "price_per_night": 93,
+    "star_rating": 3,
+    "amenity_list": [
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Plaza",
+    "locality": "Altstadt",
+    "city": "FRA",
+    "price_per_night": 112,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "pet_friendly",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Gardens",
+    "locality": "Shinjuku",
+    "city": "NRT",
+    "price_per_night": 99,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "gym",
+      "laundry",
+      "parking",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Westin Haven",
+    "locality": "Potts Point",
+    "city": "SYD",
+    "price_per_night": 78,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "W Oasis",
+    "locality": "Business Bay",
+    "city": "DXB",
+    "price_per_night": 612,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "ev_charging",
+      "laundry",
+      "pet_friendly",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Taj Resort",
+    "locality": "MG Road",
+    "city": "BLR",
+    "price_per_night": 150,
+    "star_rating": 3,
+    "amenity_list": [
+      "gym",
+      "pool",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Regency",
+    "locality": "Marina Bay",
+    "city": "SIN",
+    "price_per_night": 109,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "ev_charging",
+      "parking",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Le M\u00e9ridien Retreat",
+    "locality": "Greenwich Village",
+    "city": "JFK",
+    "price_per_night": 319,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "pet_friendly",
+      "pool",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Suites",
+    "locality": "Santa Monica",
+    "city": "LAX",
+    "price_per_night": 165,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "gym",
+      "laundry",
+      "parking",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Regency",
+    "locality": "Latin Quarter",
+    "city": "CDG",
+    "price_per_night": 200,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "parking",
+      "pet_friendly",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Majestic",
+    "locality": "Shoreditch",
+    "city": "LHR",
+    "price_per_night": 82,
+    "star_rating": 2,
+    "amenity_list": [
+      "breakfast",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Orchid",
+    "locality": "Bornheim",
+    "city": "FRA",
+    "price_per_night": 890,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "concierge",
+      "gym",
+      "parking",
+      "pet_friendly",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Shangri-La Retreat",
+    "locality": "Ikebukuro",
+    "city": "NRT",
+    "price_per_night": 61,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "pet_friendly",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Majestic",
+    "locality": "Chippendale",
+    "city": "SYD",
+    "price_per_night": 223,
+    "star_rating": 4,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Heritage",
+    "locality": "Dubai Marina",
+    "city": "DXB",
+    "price_per_night": 178,
+    "star_rating": 3,
+    "amenity_list": [
+      "concierge",
+      "pet_friendly",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Shangri-La Palace",
+    "locality": "Whitefield",
+    "city": "BLR",
+    "price_per_night": 830,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "concierge",
+      "laundry",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Park Regency",
+    "locality": "Tanjong Pagar",
+    "city": "SIN",
+    "price_per_night": 192,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "concierge",
+      "laundry",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Taj Regency",
+    "locality": "Upper East Side",
+    "city": "JFK",
+    "price_per_night": 153,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "business_center",
+      "concierge",
+      "pool",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Terrace",
+    "locality": "Downtown LA",
+    "city": "LAX",
+    "price_per_night": 280,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "ev_charging",
+      "parking",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Park Imperial",
+    "locality": "Champs-\u00c9lys\u00e9es",
+    "city": "CDG",
+    "price_per_night": 197,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "gym",
+      "laundry",
+      "parking",
+      "pool",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Signature",
+    "locality": "Camden",
+    "city": "LHR",
+    "price_per_night": 360,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "W Suites",
+    "locality": "Gallus",
+    "city": "FRA",
+    "price_per_night": 851,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "ev_charging",
+      "pet_friendly",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Resort",
+    "locality": "Harajuku",
+    "city": "NRT",
+    "price_per_night": 692,
+    "star_rating": 5,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "pet_friendly",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Courtyard Imperial",
+    "locality": "Pyrmont",
+    "city": "SYD",
+    "price_per_night": 319,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "concierge",
+      "gym",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Towers",
+    "locality": "Al Barsha",
+    "city": "DXB",
+    "price_per_night": 175,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "concierge",
+      "gym",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Haven",
+    "locality": "Malleshwaram",
+    "city": "BLR",
+    "price_per_night": 60,
+    "star_rating": 2,
+    "amenity_list": [
+      "concierge",
+      "pet_friendly",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Terrace",
+    "locality": "Tanjong Pagar",
+    "city": "SIN",
+    "price_per_night": 191,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "laundry",
+      "pool",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Vista",
+    "locality": "Brooklyn",
+    "city": "JFK",
+    "price_per_night": 261,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Orchid",
+    "locality": "Hollywood",
+    "city": "LAX",
+    "price_per_night": 91,
+    "star_rating": 2,
+    "amenity_list": [
+      "business_center",
+      "parking",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Signature",
+    "locality": "Latin Quarter",
+    "city": "CDG",
+    "price_per_night": 152,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "gym",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "W Imperial",
+    "locality": "Bloomsbury",
+    "city": "LHR",
+    "price_per_night": 80,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "ev_charging",
+      "gym",
+      "laundry"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Gardens",
+    "locality": "Altstadt",
+    "city": "FRA",
+    "price_per_night": 380,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "concierge",
+      "gym",
+      "parking",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Regency",
+    "locality": "Ueno",
+    "city": "NRT",
+    "price_per_night": 82,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "parking",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "The Resort",
+    "locality": "Pyrmont",
+    "city": "SYD",
+    "price_per_night": 885,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "laundry",
+      "parking",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "W Gardens",
+    "locality": "Downtown Dubai",
+    "city": "DXB",
+    "price_per_night": 196,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "ev_charging",
+      "laundry",
+      "parking"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Inn",
+    "locality": "Rajajinagar",
+    "city": "BLR",
+    "price_per_night": 556,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Palace",
+    "locality": "Bugis",
+    "city": "SIN",
+    "price_per_night": 351,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "gym",
+      "laundry",
+      "parking",
+      "pool",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Taj Inn",
+    "locality": "Queens",
+    "city": "JFK",
+    "price_per_night": 180,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "ev_charging",
+      "parking",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Courtyard Premier",
+    "locality": "Downtown LA",
+    "city": "LAX",
+    "price_per_night": 646,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "business_center",
+      "gym",
+      "pet_friendly",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "ITC Residency",
+    "locality": "Latin Quarter",
+    "city": "CDG",
+    "price_per_night": 314,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "ev_charging",
+      "parking",
+      "pool",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Orchid",
+    "locality": "Bloomsbury",
+    "city": "LHR",
+    "price_per_night": 91,
+    "star_rating": 2,
+    "amenity_list": [
+      "breakfast",
+      "ev_charging",
+      "laundry"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Elite",
+    "locality": "Bornheim",
+    "city": "FRA",
+    "price_per_night": 316,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "gym",
+      "parking",
+      "pool",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Horizon",
+    "locality": "Ginza",
+    "city": "NRT",
+    "price_per_night": 99,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Peninsula Majestic",
+    "locality": "Potts Point",
+    "city": "SYD",
+    "price_per_night": 458,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Marriott Elite",
+    "locality": "Al Barsha",
+    "city": "DXB",
+    "price_per_night": 45,
+    "star_rating": 1,
+    "amenity_list": [
+      "pet_friendly",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Peninsula Retreat",
+    "locality": "Jayanagar",
+    "city": "BLR",
+    "price_per_night": 362,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "business_center",
+      "parking",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Palace",
+    "locality": "Clarke Quay",
+    "city": "SIN",
+    "price_per_night": 212,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "gym",
+      "laundry",
+      "pool",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Crown",
+    "locality": "Queens",
+    "city": "JFK",
+    "price_per_night": 351,
+    "star_rating": 4,
+    "amenity_list": [
+      "ev_charging",
+      "gym",
+      "laundry",
+      "parking",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Plaza",
+    "locality": "Santa Monica",
+    "city": "LAX",
+    "price_per_night": 326,
+    "star_rating": 5,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Majestic",
+    "locality": "Pigalle",
+    "city": "CDG",
+    "price_per_night": 94,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Towers",
+    "locality": "Notting Hill",
+    "city": "LHR",
+    "price_per_night": 278,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "concierge",
+      "laundry",
+      "parking",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Royal Premier",
+    "locality": "Bahnhofsviertel",
+    "city": "FRA",
+    "price_per_night": 134,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "concierge",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Residency",
+    "locality": "Akihabara",
+    "city": "NRT",
+    "price_per_night": 451,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "gym",
+      "laundry",
+      "parking",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Oberoi Haven",
+    "locality": "Paddington",
+    "city": "SYD",
+    "price_per_night": 225,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "laundry",
+      "pool",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Crown",
+    "locality": "JBR",
+    "city": "DXB",
+    "price_per_night": 520,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "ev_charging",
+      "pet_friendly",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Shangri-La Heritage",
+    "locality": "Electronic City",
+    "city": "BLR",
+    "price_per_night": 245,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "concierge",
+      "gym",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Vista",
+    "locality": "Clarke Quay",
+    "city": "SIN",
+    "price_per_night": 66,
+    "star_rating": 2,
+    "amenity_list": [
+      "laundry",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Gardens",
+    "locality": "Brooklyn",
+    "city": "JFK",
+    "price_per_night": 720,
+    "star_rating": 5,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Marriott Suites",
+    "locality": "Pasadena",
+    "city": "LAX",
+    "price_per_night": 78,
+    "star_rating": 2,
+    "amenity_list": [
+      "business_center",
+      "pet_friendly",
+      "pool",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Resort",
+    "locality": "Latin Quarter",
+    "city": "CDG",
+    "price_per_night": 53,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "laundry",
+      "parking"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Crown",
+    "locality": "Camden",
+    "city": "LHR",
+    "price_per_night": 51,
+    "star_rating": 1,
+    "amenity_list": [
+      "gym",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Imperial",
+    "locality": "Sachsenhausen",
+    "city": "FRA",
+    "price_per_night": 445,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "concierge",
+      "pet_friendly",
+      "pool",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "ITC Regency",
+    "locality": "Akihabara",
+    "city": "NRT",
+    "price_per_night": 179,
+    "star_rating": 3,
+    "amenity_list": [
+      "ev_charging",
+      "laundry",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Royal Gardens",
+    "locality": "Circular Quay",
+    "city": "SYD",
+    "price_per_night": 84,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Marriott Crown",
+    "locality": "JBR",
+    "city": "DXB",
+    "price_per_night": 94,
+    "star_rating": 3,
+    "amenity_list": [
+      "concierge",
+      "parking",
+      "pool",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Gardens",
+    "locality": "Electronic City",
+    "city": "BLR",
+    "price_per_night": 161,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "ev_charging",
+      "laundry",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "JW Suites",
+    "locality": "Bugis",
+    "city": "SIN",
+    "price_per_night": 117,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "pool",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Park Imperial",
+    "locality": "Upper East Side",
+    "city": "JFK",
+    "price_per_night": 330,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "pet_friendly",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Royal Majestic",
+    "locality": "Hollywood",
+    "city": "LAX",
+    "price_per_night": 108,
+    "star_rating": 2,
+    "amenity_list": [
+      "ev_charging",
+      "laundry",
+      "pool",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Majestic",
+    "locality": "Bastille",
+    "city": "CDG",
+    "price_per_night": 179,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "gym",
+      "laundry",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Majestic",
+    "locality": "Bloomsbury",
+    "city": "LHR",
+    "price_per_night": 101,
+    "star_rating": 2,
+    "amenity_list": [
+      "pool",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Resort",
+    "locality": "Bockenheim",
+    "city": "FRA",
+    "price_per_night": 472,
+    "star_rating": 5,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "pet_friendly",
+      "pool",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Suites",
+    "locality": "Roppongi",
+    "city": "NRT",
+    "price_per_night": 93,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "parking"
+    ]
+  },
+  {
+    "hotel_name": "Hotel Plaza",
+    "locality": "Chippendale",
+    "city": "SYD",
+    "price_per_night": 268,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "ev_charging",
+      "laundry",
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Suites",
+    "locality": "Al Barsha",
+    "city": "DXB",
+    "price_per_night": 369,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Elite",
+    "locality": "Indiranagar",
+    "city": "BLR",
+    "price_per_night": 164,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "parking",
+      "pet_friendly",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Oberoi Elite",
+    "locality": "Jurong East",
+    "city": "SIN",
+    "price_per_night": 291,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "business_center",
+      "laundry",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Park Palace",
+    "locality": "Chelsea",
+    "city": "JFK",
+    "price_per_night": 176,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "gym",
+      "pet_friendly",
+      "pool",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Elite",
+    "locality": "Culver City",
+    "city": "LAX",
+    "price_per_night": 63,
+    "star_rating": 1,
+    "amenity_list": [
+      "business_center",
+      "gym",
+      "laundry",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Shangri-La Crown",
+    "locality": "Op\u00e9ra",
+    "city": "CDG",
+    "price_per_night": 353,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "pet_friendly",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Lodge",
+    "locality": "Bloomsbury",
+    "city": "LHR",
+    "price_per_night": 373,
+    "star_rating": 4,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Terrace",
+    "locality": "Bahnhofsviertel",
+    "city": "FRA",
+    "price_per_night": 432,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "laundry",
+      "parking",
+      "pool",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Vista",
+    "locality": "Odaiba",
+    "city": "NRT",
+    "price_per_night": 395,
+    "star_rating": 5,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "parking",
+      "pet_friendly",
+      "restaurant",
+      "room_service",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Crown",
+    "locality": "Chippendale",
+    "city": "SYD",
+    "price_per_night": 74,
+    "star_rating": 2,
+    "amenity_list": [
+      "breakfast",
+      "gym",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Crown",
+    "locality": "JBR",
+    "city": "DXB",
+    "price_per_night": 117,
+    "star_rating": 2,
+    "amenity_list": [
+      "concierge",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Park Haven",
+    "locality": "Malleshwaram",
+    "city": "BLR",
+    "price_per_night": 457,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Elite",
+    "locality": "Jurong East",
+    "city": "SIN",
+    "price_per_night": 116,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Inn",
+    "locality": "Tribeca",
+    "city": "JFK",
+    "price_per_night": 166,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Taj Inn",
+    "locality": "Silver Lake",
+    "city": "LAX",
+    "price_per_night": 185,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "parking",
+      "pet_friendly",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Signature",
+    "locality": "Montmartre",
+    "city": "CDG",
+    "price_per_night": 222,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "gym",
+      "parking",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Majestic",
+    "locality": "Kensington",
+    "city": "LHR",
+    "price_per_night": 527,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "pet_friendly",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Imperial",
+    "locality": "Sachsenhausen",
+    "city": "FRA",
+    "price_per_night": 127,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "pool",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Park Palace",
+    "locality": "Asakusa",
+    "city": "NRT",
+    "price_per_night": 197,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "gym",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Haven",
+    "locality": "Darling Harbour",
+    "city": "SYD",
+    "price_per_night": 381,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "gym",
+      "parking",
+      "pool",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Majestic",
+    "locality": "Dubai Marina",
+    "city": "DXB",
+    "price_per_night": 595,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "parking",
+      "pool",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Westin Horizon",
+    "locality": "Indiranagar",
+    "city": "BLR",
+    "price_per_night": 115,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "gym",
+      "laundry"
+    ]
+  },
+  {
+    "hotel_name": "Westin Continental",
+    "locality": "Sentosa",
+    "city": "SIN",
+    "price_per_night": 153,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "gym",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Hotel Signature",
+    "locality": "Upper East Side",
+    "city": "JFK",
+    "price_per_night": 114,
+    "star_rating": 2,
+    "amenity_list": [
+      "business_center",
+      "pet_friendly",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Royal Retreat",
+    "locality": "Malibu",
+    "city": "LAX",
+    "price_per_night": 127,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "parking",
+      "pool",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Retreat",
+    "locality": "Montmartre",
+    "city": "CDG",
+    "price_per_night": 178,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "gym",
+      "laundry",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Retreat",
+    "locality": "Soho",
+    "city": "LHR",
+    "price_per_night": 186,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "concierge",
+      "ev_charging"
+    ]
+  },
+  {
+    "hotel_name": "Hotel Terrace",
+    "locality": "Gallus",
+    "city": "FRA",
+    "price_per_night": 159,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "parking",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Imperial",
+    "locality": "Odaiba",
+    "city": "NRT",
+    "price_per_night": 140,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "concierge",
+      "parking",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "W Retreat",
+    "locality": "Newtown",
+    "city": "SYD",
+    "price_per_night": 114,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "pool",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Imperial",
+    "locality": "Palm Jumeirah",
+    "city": "DXB",
+    "price_per_night": 491,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "ev_charging",
+      "parking",
+      "pool",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Plaza",
+    "locality": "Yelahanka",
+    "city": "BLR",
+    "price_per_night": 87,
+    "star_rating": 2,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "pet_friendly",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Westin Terrace",
+    "locality": "Little India",
+    "city": "SIN",
+    "price_per_night": 101,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "pet_friendly",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Westin Majestic",
+    "locality": "SoHo",
+    "city": "JFK",
+    "price_per_night": 313,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "concierge",
+      "pool",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Plaza",
+    "locality": "Hollywood",
+    "city": "LAX",
+    "price_per_night": 98,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "ITC Continental",
+    "locality": "Latin Quarter",
+    "city": "CDG",
+    "price_per_night": 54,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "gym",
+      "laundry",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Suites",
+    "locality": "Canary Wharf",
+    "city": "LHR",
+    "price_per_night": 126,
+    "star_rating": 3,
+    "amenity_list": [
+      "concierge",
+      "parking",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Vista",
+    "locality": "Westend",
+    "city": "FRA",
+    "price_per_night": 143,
+    "star_rating": 3,
+    "amenity_list": [
+      "ev_charging",
+      "pool",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Elite",
+    "locality": "Roppongi",
+    "city": "NRT",
+    "price_per_night": 158,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "parking",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Plaza",
+    "locality": "Chippendale",
+    "city": "SYD",
+    "price_per_night": 61,
+    "star_rating": 2,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hotel Horizon",
+    "locality": "JBR",
+    "city": "DXB",
+    "price_per_night": 224,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "parking",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Marriott Suites",
+    "locality": "Whitefield",
+    "city": "BLR",
+    "price_per_night": 352,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "laundry",
+      "room_service",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Park Haven",
+    "locality": "Orchard Road",
+    "city": "SIN",
+    "price_per_night": 88,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "parking",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Oasis",
+    "locality": "Brooklyn",
+    "city": "JFK",
+    "price_per_night": 96,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "concierge",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Park Crown",
+    "locality": "Culver City",
+    "city": "LAX",
+    "price_per_night": 313,
+    "star_rating": 4,
+    "amenity_list": [
+      "business_center",
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Towers",
+    "locality": "Pigalle",
+    "city": "CDG",
+    "price_per_night": 456,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "gym",
+      "parking",
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Regency",
+    "locality": "Kensington",
+    "city": "LHR",
+    "price_per_night": 556,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "concierge",
+      "gym",
+      "parking",
+      "pool",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Oasis",
+    "locality": "Westend",
+    "city": "FRA",
+    "price_per_night": 193,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "laundry",
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Royal Orchid",
+    "locality": "Shibuya",
+    "city": "NRT",
+    "price_per_night": 346,
+    "star_rating": 5,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Peninsula Regency",
+    "locality": "Manly",
+    "city": "SYD",
+    "price_per_night": 141,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "concierge",
+      "parking",
+      "pet_friendly",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Royal Plaza",
+    "locality": "Al Barsha",
+    "city": "DXB",
+    "price_per_night": 133,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Vista",
+    "locality": "Jayanagar",
+    "city": "BLR",
+    "price_per_night": 131,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "gym",
+      "pool",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "The Lodge",
+    "locality": "Tanjong Pagar",
+    "city": "SIN",
+    "price_per_night": 111,
+    "star_rating": 3,
+    "amenity_list": [
+      "gym",
+      "parking",
+      "pool",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Plaza",
+    "locality": "Tribeca",
+    "city": "JFK",
+    "price_per_night": 891,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "concierge",
+      "gym",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Orchid",
+    "locality": "Santa Monica",
+    "city": "LAX",
+    "price_per_night": 200,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Royal Regency",
+    "locality": "Belleville",
+    "city": "CDG",
+    "price_per_night": 302,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "W Towers",
+    "locality": "Covent Garden",
+    "city": "LHR",
+    "price_per_night": 97,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "ev_charging",
+      "parking",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Royal Imperial",
+    "locality": "Altstadt",
+    "city": "FRA",
+    "price_per_night": 295,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "ev_charging",
+      "parking",
+      "pool",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "JW Horizon",
+    "locality": "Asakusa",
+    "city": "NRT",
+    "price_per_night": 185,
+    "star_rating": 3,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "ITC Heritage",
+    "locality": "Paddington",
+    "city": "SYD",
+    "price_per_night": 674,
+    "star_rating": 5,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "concierge",
+      "gym",
+      "laundry",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Park Terrace",
+    "locality": "Palm Jumeirah",
+    "city": "DXB",
+    "price_per_night": 60,
+    "star_rating": 1,
+    "amenity_list": [
+      "bar",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Park Heritage",
+    "locality": "Rajajinagar",
+    "city": "BLR",
+    "price_per_night": 90,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "gym",
+      "laundry",
+      "parking",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Signature",
+    "locality": "Novena",
+    "city": "SIN",
+    "price_per_night": 275,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Regency",
+    "locality": "Manhattan",
+    "city": "JFK",
+    "price_per_night": 302,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "concierge",
+      "laundry",
+      "parking"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Plaza",
+    "locality": "Culver City",
+    "city": "LAX",
+    "price_per_night": 311,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "gym",
+      "laundry",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Inn",
+    "locality": "Le Marais",
+    "city": "CDG",
+    "price_per_night": 262,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "gym",
+      "pet_friendly",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "W Vista",
+    "locality": "Westminster",
+    "city": "LHR",
+    "price_per_night": 330,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "gym",
+      "pet_friendly",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Taj Elite",
+    "locality": "Ostend",
+    "city": "FRA",
+    "price_per_night": 237,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "concierge",
+      "parking",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Lodge",
+    "locality": "Odaiba",
+    "city": "NRT",
+    "price_per_night": 226,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "parking",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Premier",
+    "locality": "Newtown",
+    "city": "SYD",
+    "price_per_night": 293,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "ev_charging",
+      "parking",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Oberoi Imperial",
+    "locality": "Palm Jumeirah",
+    "city": "DXB",
+    "price_per_night": 394,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "ev_charging",
+      "gym",
+      "parking",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Lodge",
+    "locality": "HSR Layout",
+    "city": "BLR",
+    "price_per_night": 107,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "parking",
+      "pet_friendly",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "The Haven",
+    "locality": "Jurong East",
+    "city": "SIN",
+    "price_per_night": 211,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "ev_charging",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Majestic",
+    "locality": "Tribeca",
+    "city": "JFK",
+    "price_per_night": 333,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "gym",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Shangri-La Retreat",
+    "locality": "Pasadena",
+    "city": "LAX",
+    "price_per_night": 788,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "concierge",
+      "parking",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Oasis",
+    "locality": "Champs-\u00c9lys\u00e9es",
+    "city": "CDG",
+    "price_per_night": 286,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "ev_charging",
+      "gym",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Courtyard Palace",
+    "locality": "Covent Garden",
+    "city": "LHR",
+    "price_per_night": 807,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "gym",
+      "parking",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Courtyard Heritage",
+    "locality": "Bornheim",
+    "city": "FRA",
+    "price_per_night": 266,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "gym",
+      "pet_friendly",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Inn",
+    "locality": "Shibuya",
+    "city": "NRT",
+    "price_per_night": 638,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "parking",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Gardens",
+    "locality": "Bondi",
+    "city": "SYD",
+    "price_per_night": 194,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "laundry",
+      "pet_friendly",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Towers",
+    "locality": "Jumeirah",
+    "city": "DXB",
+    "price_per_night": 97,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "parking",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "JW Lodge",
+    "locality": "Jayanagar",
+    "city": "BLR",
+    "price_per_night": 118,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Palace",
+    "locality": "Orchard Road",
+    "city": "SIN",
+    "price_per_night": 269,
+    "star_rating": 4,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "gym",
+      "parking",
+      "pool",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "ITC Haven",
+    "locality": "Midtown",
+    "city": "JFK",
+    "price_per_night": 206,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Courtyard Premier",
+    "locality": "Culver City",
+    "city": "LAX",
+    "price_per_night": 182,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Elite",
+    "locality": "Pigalle",
+    "city": "CDG",
+    "price_per_night": 670,
+    "star_rating": 5,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "pool",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Park Plaza",
+    "locality": "Shoreditch",
+    "city": "LHR",
+    "price_per_night": 189,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "concierge",
+      "laundry",
+      "pool",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Palace",
+    "locality": "Gallus",
+    "city": "FRA",
+    "price_per_night": 96,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "ev_charging",
+      "laundry",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Orchid",
+    "locality": "Ueno",
+    "city": "NRT",
+    "price_per_night": 112,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "laundry",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "ITC Terrace",
+    "locality": "Circular Quay",
+    "city": "SYD",
+    "price_per_night": 119,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "ev_charging",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "JW Suites",
+    "locality": "Business Bay",
+    "city": "DXB",
+    "price_per_night": 127,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "ev_charging",
+      "pet_friendly",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Horizon",
+    "locality": "MG Road",
+    "city": "BLR",
+    "price_per_night": 163,
+    "star_rating": 3,
+    "amenity_list": [
+      "gym",
+      "pet_friendly",
+      "pool",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Orchid",
+    "locality": "Marina Bay",
+    "city": "SIN",
+    "price_per_night": 400,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "concierge",
+      "parking",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Elite",
+    "locality": "Tribeca",
+    "city": "JFK",
+    "price_per_night": 99,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "parking",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Shangri-La Haven",
+    "locality": "Hollywood",
+    "city": "LAX",
+    "price_per_night": 45,
+    "star_rating": 1,
+    "amenity_list": [
+      "breakfast",
+      "laundry",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Terrace",
+    "locality": "Le Marais",
+    "city": "CDG",
+    "price_per_night": 45,
+    "star_rating": 1,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "JW Crown",
+    "locality": "Westminster",
+    "city": "LHR",
+    "price_per_night": 97,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "parking",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Westin Crown",
+    "locality": "Bockenheim",
+    "city": "FRA",
+    "price_per_night": 210,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "parking",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Vista",
+    "locality": "Ginza",
+    "city": "NRT",
+    "price_per_night": 160,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "restaurant",
+      "room_service",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Oberoi Signature",
+    "locality": "Newtown",
+    "city": "SYD",
+    "price_per_night": 726,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "ev_charging",
+      "gym",
+      "parking",
+      "pet_friendly",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "W Terrace",
+    "locality": "Jumeirah",
+    "city": "DXB",
+    "price_per_night": 774,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "ev_charging",
+      "laundry",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Inn",
+    "locality": "Jayanagar",
+    "city": "BLR",
+    "price_per_night": 60,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "ev_charging",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Inn",
+    "locality": "Marina Bay",
+    "city": "SIN",
+    "price_per_night": 84,
+    "star_rating": 2,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "laundry",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Le M\u00e9ridien Crown",
+    "locality": "Greenwich Village",
+    "city": "JFK",
+    "price_per_night": 872,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "ev_charging",
+      "parking",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Towers",
+    "locality": "Pasadena",
+    "city": "LAX",
+    "price_per_night": 197,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "laundry",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Peninsula Heritage",
+    "locality": "Bastille",
+    "city": "CDG",
+    "price_per_night": 128,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Premier",
+    "locality": "Notting Hill",
+    "city": "LHR",
+    "price_per_night": 92,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "business_center",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Royal Oasis",
+    "locality": "Nordend",
+    "city": "FRA",
+    "price_per_night": 174,
+    "star_rating": 3,
+    "amenity_list": [
+      "gym",
+      "laundry",
+      "parking",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Suites",
+    "locality": "Roppongi",
+    "city": "NRT",
+    "price_per_night": 234,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "ev_charging",
+      "laundry",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Lodge",
+    "locality": "Chippendale",
+    "city": "SYD",
+    "price_per_night": 397,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Peninsula Premier",
+    "locality": "Jumeirah",
+    "city": "DXB",
+    "price_per_night": 119,
+    "star_rating": 2,
+    "amenity_list": [
+      "concierge",
+      "pet_friendly",
+      "pool",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Royal Crown",
+    "locality": "Indiranagar",
+    "city": "BLR",
+    "price_per_night": 722,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "pet_friendly",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Royal Haven",
+    "locality": "Jurong East",
+    "city": "SIN",
+    "price_per_night": 383,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "concierge",
+      "ev_charging",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Signature",
+    "locality": "SoHo",
+    "city": "JFK",
+    "price_per_night": 287,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "parking",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Towers",
+    "locality": "Culver City",
+    "city": "LAX",
+    "price_per_night": 99,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "ev_charging",
+      "laundry",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Imperial",
+    "locality": "Montmartre",
+    "city": "CDG",
+    "price_per_night": 127,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "laundry",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Retreat",
+    "locality": "Westminster",
+    "city": "LHR",
+    "price_per_night": 91,
+    "star_rating": 3,
+    "amenity_list": [
+      "ev_charging",
+      "pet_friendly",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Terrace",
+    "locality": "Westend",
+    "city": "FRA",
+    "price_per_night": 90,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "laundry",
+      "pet_friendly",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Signature",
+    "locality": "Shinjuku",
+    "city": "NRT",
+    "price_per_night": 535,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "laundry",
+      "parking",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Lodge",
+    "locality": "Paddington",
+    "city": "SYD",
+    "price_per_night": 66,
+    "star_rating": 1,
+    "amenity_list": [
+      "concierge",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Inn",
+    "locality": "DIFC",
+    "city": "DXB",
+    "price_per_night": 68,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "pet_friendly",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Taj Oasis",
+    "locality": "Whitefield",
+    "city": "BLR",
+    "price_per_night": 880,
+    "star_rating": 5,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "pet_friendly",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Le M\u00e9ridien Terrace",
+    "locality": "Orchard Road",
+    "city": "SIN",
+    "price_per_night": 278,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "pool",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Haven",
+    "locality": "Greenwich Village",
+    "city": "JFK",
+    "price_per_night": 156,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Resort",
+    "locality": "Westwood",
+    "city": "LAX",
+    "price_per_night": 291,
+    "star_rating": 4,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Resort",
+    "locality": "Montmartre",
+    "city": "CDG",
+    "price_per_night": 60,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "gym",
+      "parking",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Continental",
+    "locality": "Kensington",
+    "city": "LHR",
+    "price_per_night": 61,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "parking",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Park Residency",
+    "locality": "Westend",
+    "city": "FRA",
+    "price_per_night": 260,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "pet_friendly",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "ITC Horizon",
+    "locality": "Shibuya",
+    "city": "NRT",
+    "price_per_night": 91,
+    "star_rating": 2,
+    "amenity_list": [
+      "pet_friendly",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "JW Residency",
+    "locality": "Paddington",
+    "city": "SYD",
+    "price_per_night": 195,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "gym",
+      "laundry",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Regency",
+    "locality": "Bur Dubai",
+    "city": "DXB",
+    "price_per_night": 143,
+    "star_rating": 3,
+    "amenity_list": [
+      "ev_charging",
+      "gym",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Residency",
+    "locality": "Jayanagar",
+    "city": "BLR",
+    "price_per_night": 112,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "concierge",
+      "laundry"
+    ]
+  },
+  {
+    "hotel_name": "The Suites",
+    "locality": "Bugis",
+    "city": "SIN",
+    "price_per_night": 151,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "ev_charging",
+      "laundry",
+      "pet_friendly",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Westin Suites",
+    "locality": "SoHo",
+    "city": "JFK",
+    "price_per_night": 121,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "gym",
+      "laundry",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Vista",
+    "locality": "Pasadena",
+    "city": "LAX",
+    "price_per_night": 889,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "parking",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Marriott Oasis",
+    "locality": "Pigalle",
+    "city": "CDG",
+    "price_per_night": 73,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "concierge",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Regency",
+    "locality": "Kensington",
+    "city": "LHR",
+    "price_per_night": 718,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "parking"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Majestic",
+    "locality": "Bahnhofsviertel",
+    "city": "FRA",
+    "price_per_night": 89,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "ev_charging",
+      "laundry",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Courtyard Terrace",
+    "locality": "Ueno",
+    "city": "NRT",
+    "price_per_night": 149,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "laundry",
+      "room_service",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Crown",
+    "locality": "Bondi",
+    "city": "SYD",
+    "price_per_night": 318,
+    "star_rating": 4,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Retreat",
+    "locality": "Business Bay",
+    "city": "DXB",
+    "price_per_night": 51,
+    "star_rating": 1,
+    "amenity_list": [
+      "business_center",
+      "pool",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Vista",
+    "locality": "Yelahanka",
+    "city": "BLR",
+    "price_per_night": 78,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Terrace",
+    "locality": "Novena",
+    "city": "SIN",
+    "price_per_night": 99,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "parking",
+      "pool",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Vista",
+    "locality": "Queens",
+    "city": "JFK",
+    "price_per_night": 656,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "business_center",
+      "parking",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Vista",
+    "locality": "Pasadena",
+    "city": "LAX",
+    "price_per_night": 120,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "parking",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Towers",
+    "locality": "Saint-Germain",
+    "city": "CDG",
+    "price_per_night": 81,
+    "star_rating": 2,
+    "amenity_list": [
+      "ev_charging",
+      "gym",
+      "pet_friendly",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Resort",
+    "locality": "Covent Garden",
+    "city": "LHR",
+    "price_per_night": 160,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Westin Inn",
+    "locality": "Gallus",
+    "city": "FRA",
+    "price_per_night": 155,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "concierge",
+      "ev_charging",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Le M\u00e9ridien Residency",
+    "locality": "Harajuku",
+    "city": "NRT",
+    "price_per_night": 93,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "gym",
+      "pet_friendly",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Gardens",
+    "locality": "Chippendale",
+    "city": "SYD",
+    "price_per_night": 117,
+    "star_rating": 2,
+    "amenity_list": [
+      "concierge",
+      "laundry",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Towers",
+    "locality": "Palm Jumeirah",
+    "city": "DXB",
+    "price_per_night": 125,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "gym",
+      "laundry",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Courtyard Haven",
+    "locality": "Rajajinagar",
+    "city": "BLR",
+    "price_per_night": 171,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "gym",
+      "parking",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Suites",
+    "locality": "Novena",
+    "city": "SIN",
+    "price_per_night": 99,
+    "star_rating": 2,
+    "amenity_list": [
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Retreat",
+    "locality": "Upper East Side",
+    "city": "JFK",
+    "price_per_night": 168,
+    "star_rating": 3,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "gym",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Park Plaza",
+    "locality": "Westwood",
+    "city": "LAX",
+    "price_per_night": 107,
+    "star_rating": 2,
+    "amenity_list": [
+      "laundry",
+      "pet_friendly",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Imperial",
+    "locality": "Pigalle",
+    "city": "CDG",
+    "price_per_night": 144,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "ev_charging",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Elite",
+    "locality": "Notting Hill",
+    "city": "LHR",
+    "price_per_night": 101,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "laundry",
+      "parking",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Plaza",
+    "locality": "Gallus",
+    "city": "FRA",
+    "price_per_night": 152,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "concierge",
+      "pet_friendly",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Crown",
+    "locality": "Odaiba",
+    "city": "NRT",
+    "price_per_night": 96,
+    "star_rating": 2,
+    "amenity_list": [
+      "business_center",
+      "pet_friendly",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Horizon",
+    "locality": "Bondi",
+    "city": "SYD",
+    "price_per_night": 57,
+    "star_rating": 1,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "concierge",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Lodge",
+    "locality": "Palm Jumeirah",
+    "city": "DXB",
+    "price_per_night": 190,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "ev_charging",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Marriott Vista",
+    "locality": "Rajajinagar",
+    "city": "BLR",
+    "price_per_night": 326,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "laundry",
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Park Inn",
+    "locality": "Sentosa",
+    "city": "SIN",
+    "price_per_night": 183,
+    "star_rating": 3,
+    "amenity_list": [
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "room_service",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Regency",
+    "locality": "SoHo",
+    "city": "JFK",
+    "price_per_night": 296,
+    "star_rating": 4,
+    "amenity_list": [
+      "concierge",
+      "gym",
+      "parking",
+      "pet_friendly",
+      "pool",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Courtyard Palace",
+    "locality": "Downtown LA",
+    "city": "LAX",
+    "price_per_night": 429,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "gym",
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Oberoi Premier",
+    "locality": "Saint-Germain",
+    "city": "CDG",
+    "price_per_night": 297,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "concierge",
+      "ev_charging",
+      "parking",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Oberoi Signature",
+    "locality": "Camden",
+    "city": "LHR",
+    "price_per_night": 327,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "ev_charging",
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hotel Vista",
+    "locality": "Gallus",
+    "city": "FRA",
+    "price_per_night": 312,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "concierge",
+      "pool",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Lodge",
+    "locality": "Akihabara",
+    "city": "NRT",
+    "price_per_night": 590,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "gym",
+      "laundry",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "JW Palace",
+    "locality": "Darling Harbour",
+    "city": "SYD",
+    "price_per_night": 175,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "concierge",
+      "gym",
+      "pet_friendly",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Marriott Terrace",
+    "locality": "Jumeirah",
+    "city": "DXB",
+    "price_per_night": 192,
+    "star_rating": 3,
+    "amenity_list": [
+      "concierge",
+      "gym",
+      "parking",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Hotel Continental",
+    "locality": "MG Road",
+    "city": "BLR",
+    "price_per_night": 163,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "concierge",
+      "ev_charging",
+      "parking",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "The Orchid",
+    "locality": "Sentosa",
+    "city": "SIN",
+    "price_per_night": 272,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "gym",
+      "laundry",
+      "pool",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Towers",
+    "locality": "Harlem",
+    "city": "JFK",
+    "price_per_night": 38,
+    "star_rating": 1,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Le M\u00e9ridien Towers",
+    "locality": "Santa Monica",
+    "city": "LAX",
+    "price_per_night": 120,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "gym",
+      "parking",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Haven",
+    "locality": "Saint-Germain",
+    "city": "CDG",
+    "price_per_night": 106,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "concierge",
+      "gym",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Elite",
+    "locality": "Mayfair",
+    "city": "LHR",
+    "price_per_night": 388,
+    "star_rating": 5,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "pool",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Lodge",
+    "locality": "Sachsenhausen",
+    "city": "FRA",
+    "price_per_night": 111,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "laundry",
+      "pet_friendly",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Gardens",
+    "locality": "Asakusa",
+    "city": "NRT",
+    "price_per_night": 202,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Imperial",
+    "locality": "Circular Quay",
+    "city": "SYD",
+    "price_per_night": 211,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "laundry",
+      "pool",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "ITC Heritage",
+    "locality": "Jumeirah",
+    "city": "DXB",
+    "price_per_night": 696,
+    "star_rating": 5,
+    "amenity_list": [
+      "ev_charging",
+      "laundry",
+      "pet_friendly",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "JW Residency",
+    "locality": "Indiranagar",
+    "city": "BLR",
+    "price_per_night": 300,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "parking",
+      "pet_friendly",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Regency",
+    "locality": "Novena",
+    "city": "SIN",
+    "price_per_night": 725,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "pool",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Hotel Regency",
+    "locality": "Brooklyn",
+    "city": "JFK",
+    "price_per_night": 280,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "gym",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "JW Retreat",
+    "locality": "Santa Monica",
+    "city": "LAX",
+    "price_per_night": 119,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Elite",
+    "locality": "Trocad\u00e9ro",
+    "city": "CDG",
+    "price_per_night": 57,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "parking",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Terrace",
+    "locality": "Soho",
+    "city": "LHR",
+    "price_per_night": 329,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "gym",
+      "room_service",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Plaza",
+    "locality": "Bockenheim",
+    "city": "FRA",
+    "price_per_night": 182,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "ev_charging",
+      "parking",
+      "pool",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Residency",
+    "locality": "Asakusa",
+    "city": "NRT",
+    "price_per_night": 890,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "concierge",
+      "pool",
+      "room_service",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Taj Continental",
+    "locality": "Surry Hills",
+    "city": "SYD",
+    "price_per_night": 112,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "concierge",
+      "laundry",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Royal Orchid",
+    "locality": "Deira",
+    "city": "DXB",
+    "price_per_night": 161,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "gym",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Peninsula Terrace",
+    "locality": "Malleshwaram",
+    "city": "BLR",
+    "price_per_night": 529,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "ev_charging",
+      "parking",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "ITC Towers",
+    "locality": "Novena",
+    "city": "SIN",
+    "price_per_night": 353,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "business_center",
+      "gym",
+      "pool",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Residency",
+    "locality": "Upper East Side",
+    "city": "JFK",
+    "price_per_night": 767,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "laundry",
+      "parking",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Crown",
+    "locality": "Venice Beach",
+    "city": "LAX",
+    "price_per_night": 173,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "gym",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Horizon",
+    "locality": "Op\u00e9ra",
+    "city": "CDG",
+    "price_per_night": 309,
+    "star_rating": 5,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "parking",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Majestic",
+    "locality": "Notting Hill",
+    "city": "LHR",
+    "price_per_night": 57,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "gym",
+      "parking",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Shangri-La Terrace",
+    "locality": "Bockenheim",
+    "city": "FRA",
+    "price_per_night": 769,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "pool",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Shangri-La Gardens",
+    "locality": "Ginza",
+    "city": "NRT",
+    "price_per_night": 210,
+    "star_rating": 4,
+    "amenity_list": [
+      "business_center",
+      "ev_charging",
+      "parking",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Residency",
+    "locality": "Bondi",
+    "city": "SYD",
+    "price_per_night": 97,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Heritage",
+    "locality": "Business Bay",
+    "city": "DXB",
+    "price_per_night": 65,
+    "star_rating": 2,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Towers",
+    "locality": "Koramangala",
+    "city": "BLR",
+    "price_per_night": 100,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "concierge",
+      "laundry",
+      "parking"
+    ]
+  },
+  {
+    "hotel_name": "Park Residency",
+    "locality": "Sentosa",
+    "city": "SIN",
+    "price_per_night": 52,
+    "star_rating": 1,
+    "amenity_list": [
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Plaza",
+    "locality": "Manhattan",
+    "city": "JFK",
+    "price_per_night": 393,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "pet_friendly",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Le M\u00e9ridien Suites",
+    "locality": "Santa Monica",
+    "city": "LAX",
+    "price_per_night": 51,
+    "star_rating": 2,
+    "amenity_list": [
+      "business_center",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Marriott Imperial",
+    "locality": "Op\u00e9ra",
+    "city": "CDG",
+    "price_per_night": 386,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Suites",
+    "locality": "Kensington",
+    "city": "LHR",
+    "price_per_night": 92,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "gym",
+      "pet_friendly",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Vista",
+    "locality": "Bahnhofsviertel",
+    "city": "FRA",
+    "price_per_night": 808,
+    "star_rating": 5,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "gym",
+      "pet_friendly",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Elite",
+    "locality": "Ginza",
+    "city": "NRT",
+    "price_per_night": 335,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Palace",
+    "locality": "Circular Quay",
+    "city": "SYD",
+    "price_per_night": 115,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Le M\u00e9ridien Orchid",
+    "locality": "Business Bay",
+    "city": "DXB",
+    "price_per_night": 180,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "pet_friendly",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Imperial",
+    "locality": "Electronic City",
+    "city": "BLR",
+    "price_per_night": 484,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Plaza",
+    "locality": "Orchard Road",
+    "city": "SIN",
+    "price_per_night": 213,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "parking",
+      "pet_friendly",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Taj Resort",
+    "locality": "Greenwich Village",
+    "city": "JFK",
+    "price_per_night": 120,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Terrace",
+    "locality": "Westwood",
+    "city": "LAX",
+    "price_per_night": 881,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Royal Residency",
+    "locality": "Le Marais",
+    "city": "CDG",
+    "price_per_night": 109,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "laundry",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Marriott Suites",
+    "locality": "Shoreditch",
+    "city": "LHR",
+    "price_per_night": 41,
+    "star_rating": 1,
+    "amenity_list": [
+      "business_center",
+      "ev_charging",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Suites",
+    "locality": "Sachsenhausen",
+    "city": "FRA",
+    "price_per_night": 63,
+    "star_rating": 1,
+    "amenity_list": [
+      "ev_charging",
+      "pet_friendly",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Oberoi Oasis",
+    "locality": "Shibuya",
+    "city": "NRT",
+    "price_per_night": 236,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "gym",
+      "parking",
+      "pet_friendly",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Haven",
+    "locality": "Newtown",
+    "city": "SYD",
+    "price_per_night": 78,
+    "star_rating": 2,
+    "amenity_list": [
+      "concierge",
+      "gym",
+      "laundry",
+      "parking",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Park Plaza",
+    "locality": "Downtown Dubai",
+    "city": "DXB",
+    "price_per_night": 392,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Retreat",
+    "locality": "Rajajinagar",
+    "city": "BLR",
+    "price_per_night": 176,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "ev_charging",
+      "gym",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Residency",
+    "locality": "Clarke Quay",
+    "city": "SIN",
+    "price_per_night": 757,
+    "star_rating": 5,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "parking",
+      "pool",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Orchid",
+    "locality": "Manhattan",
+    "city": "JFK",
+    "price_per_night": 129,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "gym",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Imperial",
+    "locality": "Westwood",
+    "city": "LAX",
+    "price_per_night": 859,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "concierge",
+      "gym",
+      "laundry",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Orchid",
+    "locality": "Op\u00e9ra",
+    "city": "CDG",
+    "price_per_night": 113,
+    "star_rating": 3,
+    "amenity_list": [
+      "ev_charging",
+      "gym",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Residency",
+    "locality": "Canary Wharf",
+    "city": "LHR",
+    "price_per_night": 395,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "laundry",
+      "pet_friendly",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Westin Majestic",
+    "locality": "Westend",
+    "city": "FRA",
+    "price_per_night": 354,
+    "star_rating": 5,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "pool",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Peninsula Lodge",
+    "locality": "Asakusa",
+    "city": "NRT",
+    "price_per_night": 226,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "laundry",
+      "pool",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Majestic",
+    "locality": "Circular Quay",
+    "city": "SYD",
+    "price_per_night": 87,
+    "star_rating": 2,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Inn",
+    "locality": "Jumeirah",
+    "city": "DXB",
+    "price_per_night": 161,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "parking",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Premier",
+    "locality": "Electronic City",
+    "city": "BLR",
+    "price_per_night": 91,
+    "star_rating": 3,
+    "amenity_list": [
+      "concierge",
+      "gym",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Taj Elite",
+    "locality": "Marina Bay",
+    "city": "SIN",
+    "price_per_night": 569,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Towers",
+    "locality": "Brooklyn",
+    "city": "JFK",
+    "price_per_night": 94,
+    "star_rating": 2,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "laundry",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Signature",
+    "locality": "Malibu",
+    "city": "LAX",
+    "price_per_night": 397,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "business_center",
+      "concierge",
+      "laundry",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Terrace",
+    "locality": "Le Marais",
+    "city": "CDG",
+    "price_per_night": 144,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "The Crown",
+    "locality": "Notting Hill",
+    "city": "LHR",
+    "price_per_night": 477,
+    "star_rating": 5,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "gym",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Shangri-La Inn",
+    "locality": "Westend",
+    "city": "FRA",
+    "price_per_night": 186,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "laundry",
+      "parking",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Peninsula Heritage",
+    "locality": "Asakusa",
+    "city": "NRT",
+    "price_per_night": 146,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "laundry",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Majestic",
+    "locality": "Surry Hills",
+    "city": "SYD",
+    "price_per_night": 187,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "ev_charging",
+      "laundry",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "W Horizon",
+    "locality": "Palm Jumeirah",
+    "city": "DXB",
+    "price_per_night": 374,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Taj Lodge",
+    "locality": "Malleshwaram",
+    "city": "BLR",
+    "price_per_night": 186,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Resort",
+    "locality": "Marina Bay",
+    "city": "SIN",
+    "price_per_night": 60,
+    "star_rating": 1,
+    "amenity_list": [
+      "ev_charging",
+      "parking",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Lodge",
+    "locality": "Chelsea",
+    "city": "JFK",
+    "price_per_night": 36,
+    "star_rating": 1,
+    "amenity_list": [
+      "breakfast",
+      "gym",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Crown",
+    "locality": "Westwood",
+    "city": "LAX",
+    "price_per_night": 114,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "concierge",
+      "laundry",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Premier",
+    "locality": "Pigalle",
+    "city": "CDG",
+    "price_per_night": 191,
+    "star_rating": 3,
+    "amenity_list": [
+      "gym",
+      "pet_friendly",
+      "room_service",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Imperial",
+    "locality": "Soho",
+    "city": "LHR",
+    "price_per_night": 117,
+    "star_rating": 2,
+    "amenity_list": [
+      "breakfast",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Palace",
+    "locality": "Nordend",
+    "city": "FRA",
+    "price_per_night": 333,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "parking",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Imperial",
+    "locality": "Shibuya",
+    "city": "NRT",
+    "price_per_night": 167,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "laundry",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Horizon",
+    "locality": "Newtown",
+    "city": "SYD",
+    "price_per_night": 124,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "gym",
+      "parking",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Royal Plaza",
+    "locality": "DIFC",
+    "city": "DXB",
+    "price_per_night": 179,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Majestic",
+    "locality": "Yelahanka",
+    "city": "BLR",
+    "price_per_night": 155,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Taj Haven",
+    "locality": "Marina Bay",
+    "city": "SIN",
+    "price_per_night": 529,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Inn",
+    "locality": "Chelsea",
+    "city": "JFK",
+    "price_per_night": 609,
+    "star_rating": 5,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "laundry",
+      "pool",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Continental",
+    "locality": "Culver City",
+    "city": "LAX",
+    "price_per_night": 315,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Heritage",
+    "locality": "Bastille",
+    "city": "CDG",
+    "price_per_night": 83,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "ev_charging",
+      "parking"
+    ]
+  },
+  {
+    "hotel_name": "JW Resort",
+    "locality": "Westminster",
+    "city": "LHR",
+    "price_per_night": 101,
+    "star_rating": 2,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "gym",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Majestic",
+    "locality": "Bahnhofsviertel",
+    "city": "FRA",
+    "price_per_night": 249,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "laundry",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Gardens",
+    "locality": "Odaiba",
+    "city": "NRT",
+    "price_per_night": 161,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "concierge",
+      "parking",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Horizon",
+    "locality": "Surry Hills",
+    "city": "SYD",
+    "price_per_night": 600,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "gym",
+      "parking",
+      "pool",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "ITC Resort",
+    "locality": "Bur Dubai",
+    "city": "DXB",
+    "price_per_night": 257,
+    "star_rating": 4,
+    "amenity_list": [
+      "business_center",
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Four Seasons Palace",
+    "locality": "Rajajinagar",
+    "city": "BLR",
+    "price_per_night": 154,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "laundry",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Oberoi Signature",
+    "locality": "Bugis",
+    "city": "SIN",
+    "price_per_night": 255,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "gym",
+      "pet_friendly",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Park Heritage",
+    "locality": "Queens",
+    "city": "JFK",
+    "price_per_night": 382,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "gym",
+      "laundry",
+      "pet_friendly",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "JW Crown",
+    "locality": "Beverly Hills",
+    "city": "LAX",
+    "price_per_night": 153,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "gym",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Majestic",
+    "locality": "Latin Quarter",
+    "city": "CDG",
+    "price_per_night": 104,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "ITC Orchid",
+    "locality": "Shoreditch",
+    "city": "LHR",
+    "price_per_night": 343,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "concierge",
+      "pet_friendly",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Suites",
+    "locality": "Sachsenhausen",
+    "city": "FRA",
+    "price_per_night": 129,
+    "star_rating": 3,
+    "amenity_list": [
+      "gym",
+      "laundry",
+      "parking",
+      "pool",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Elite",
+    "locality": "Odaiba",
+    "city": "NRT",
+    "price_per_night": 836,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Courtyard Imperial",
+    "locality": "Darling Harbour",
+    "city": "SYD",
+    "price_per_night": 208,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "ev_charging",
+      "gym",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Continental",
+    "locality": "Downtown Dubai",
+    "city": "DXB",
+    "price_per_night": 246,
+    "star_rating": 4,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "parking",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Towers",
+    "locality": "Indiranagar",
+    "city": "BLR",
+    "price_per_night": 33,
+    "star_rating": 1,
+    "amenity_list": [
+      "airport_shuttle",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "The Horizon",
+    "locality": "Bugis",
+    "city": "SIN",
+    "price_per_night": 140,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "concierge",
+      "ev_charging",
+      "gym"
+    ]
+  },
+  {
+    "hotel_name": "Shangri-La Gardens",
+    "locality": "Brooklyn",
+    "city": "JFK",
+    "price_per_night": 319,
+    "star_rating": 4,
+    "amenity_list": [
+      "business_center",
+      "gym",
+      "laundry",
+      "parking",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Vista",
+    "locality": "Silver Lake",
+    "city": "LAX",
+    "price_per_night": 420,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "business_center",
+      "parking",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Signature",
+    "locality": "Champs-\u00c9lys\u00e9es",
+    "city": "CDG",
+    "price_per_night": 241,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "gym",
+      "parking",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Premier",
+    "locality": "Shoreditch",
+    "city": "LHR",
+    "price_per_night": 110,
+    "star_rating": 3,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Holiday Inn Premier",
+    "locality": "Westend",
+    "city": "FRA",
+    "price_per_night": 392,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "business_center",
+      "ev_charging",
+      "parking",
+      "pool",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Elite",
+    "locality": "Shinjuku",
+    "city": "NRT",
+    "price_per_night": 402,
+    "star_rating": 5,
+    "amenity_list": [
+      "concierge",
+      "gym",
+      "parking",
+      "pet_friendly",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "W Crown",
+    "locality": "Darling Harbour",
+    "city": "SYD",
+    "price_per_night": 152,
+    "star_rating": 4,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Westin Lodge",
+    "locality": "Dubai Marina",
+    "city": "DXB",
+    "price_per_night": 127,
+    "star_rating": 3,
+    "amenity_list": [
+      "gym",
+      "pet_friendly",
+      "pool",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Imperial",
+    "locality": "HSR Layout",
+    "city": "BLR",
+    "price_per_night": 182,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "gym",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Royal Plaza",
+    "locality": "Orchard Road",
+    "city": "SIN",
+    "price_per_night": 103,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "ev_charging",
+      "laundry",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Oberoi Crown",
+    "locality": "Tribeca",
+    "city": "JFK",
+    "price_per_night": 158,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "concierge",
+      "gym",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Majestic",
+    "locality": "Pasadena",
+    "city": "LAX",
+    "price_per_night": 347,
+    "star_rating": 5,
+    "amenity_list": [
+      "concierge",
+      "parking",
+      "pool",
+      "room_service",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Oasis",
+    "locality": "Champs-\u00c9lys\u00e9es",
+    "city": "CDG",
+    "price_per_night": 400,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "laundry",
+      "pet_friendly",
+      "pool",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Premier",
+    "locality": "Shoreditch",
+    "city": "LHR",
+    "price_per_night": 164,
+    "star_rating": 3,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Courtyard Plaza",
+    "locality": "Ostend",
+    "city": "FRA",
+    "price_per_night": 110,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "ev_charging",
+      "gym",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Palace",
+    "locality": "Odaiba",
+    "city": "NRT",
+    "price_per_night": 108,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "concierge",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Le M\u00e9ridien Oasis",
+    "locality": "Chippendale",
+    "city": "SYD",
+    "price_per_night": 61,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "ev_charging",
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Retreat",
+    "locality": "Downtown Dubai",
+    "city": "DXB",
+    "price_per_night": 63,
+    "star_rating": 2,
+    "amenity_list": [
+      "ev_charging",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Le M\u00e9ridien Haven",
+    "locality": "Rajajinagar",
+    "city": "BLR",
+    "price_per_night": 313,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "parking",
+      "pet_friendly",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "ITC Palace",
+    "locality": "Sentosa",
+    "city": "SIN",
+    "price_per_night": 366,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "ev_charging",
+      "laundry",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Elite",
+    "locality": "Brooklyn",
+    "city": "JFK",
+    "price_per_night": 174,
+    "star_rating": 4,
+    "amenity_list": [
+      "breakfast",
+      "business_center",
+      "concierge",
+      "pet_friendly",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Peninsula Signature",
+    "locality": "Westwood",
+    "city": "LAX",
+    "price_per_night": 408,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "gym",
+      "parking",
+      "pet_friendly",
+      "pool",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Imperial",
+    "locality": "Champs-\u00c9lys\u00e9es",
+    "city": "CDG",
+    "price_per_night": 267,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Royal Retreat",
+    "locality": "Bloomsbury",
+    "city": "LHR",
+    "price_per_night": 65,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "concierge",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Park Premier",
+    "locality": "Altstadt",
+    "city": "FRA",
+    "price_per_night": 285,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "business_center",
+      "laundry",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Crowne Plaza Oasis",
+    "locality": "Ginza",
+    "city": "NRT",
+    "price_per_night": 337,
+    "star_rating": 4,
+    "amenity_list": [
+      "concierge",
+      "gym",
+      "pet_friendly",
+      "pool",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Imperial",
+    "locality": "Pyrmont",
+    "city": "SYD",
+    "price_per_night": 400,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "laundry",
+      "parking",
+      "restaurant"
+    ]
+  },
+  {
+    "hotel_name": "Ritz Suites",
+    "locality": "Jumeirah",
+    "city": "DXB",
+    "price_per_night": 722,
+    "star_rating": 5,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Inn",
+    "locality": "Whitefield",
+    "city": "BLR",
+    "price_per_night": 203,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "parking",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Sheraton Heritage",
+    "locality": "Orchard Road",
+    "city": "SIN",
+    "price_per_night": 344,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "laundry",
+      "pet_friendly",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Le M\u00e9ridien Orchid",
+    "locality": "Upper East Side",
+    "city": "JFK",
+    "price_per_night": 93,
+    "star_rating": 3,
+    "amenity_list": [
+      "concierge",
+      "ev_charging",
+      "gym",
+      "restaurant",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "JW Plaza",
+    "locality": "Downtown LA",
+    "city": "LAX",
+    "price_per_night": 82,
+    "star_rating": 2,
+    "amenity_list": [
+      "airport_shuttle",
+      "gym",
+      "pet_friendly",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "JW Horizon",
+    "locality": "Le Marais",
+    "city": "CDG",
+    "price_per_night": 241,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "laundry",
+      "pet_friendly",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Retreat",
+    "locality": "Canary Wharf",
+    "city": "LHR",
+    "price_per_night": 249,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "parking",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Courtyard Imperial",
+    "locality": "Bahnhofsviertel",
+    "city": "FRA",
+    "price_per_night": 256,
+    "star_rating": 4,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "room_service",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Marriott Haven",
+    "locality": "Ikebukuro",
+    "city": "NRT",
+    "price_per_night": 44,
+    "star_rating": 1,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "ev_charging"
+    ]
+  },
+  {
+    "hotel_name": "JW Oasis",
+    "locality": "Paddington",
+    "city": "SYD",
+    "price_per_night": 339,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "laundry",
+      "parking",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Hotel Plaza",
+    "locality": "Jumeirah",
+    "city": "DXB",
+    "price_per_night": 174,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "parking",
+      "pool",
+      "restaurant",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Taj Oasis",
+    "locality": "Electronic City",
+    "city": "BLR",
+    "price_per_night": 151,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "gym",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Westin Palace",
+    "locality": "Jurong East",
+    "city": "SIN",
+    "price_per_night": 88,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "laundry",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Signature",
+    "locality": "Midtown",
+    "city": "JFK",
+    "price_per_night": 103,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "ev_charging",
+      "gym",
+      "pool",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Hotel Continental",
+    "locality": "Venice Beach",
+    "city": "LAX",
+    "price_per_night": 376,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "business_center",
+      "concierge",
+      "parking",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Mandarin Premier",
+    "locality": "Pigalle",
+    "city": "CDG",
+    "price_per_night": 185,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "pet_friendly",
+      "pool",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Westin Haven",
+    "locality": "Mayfair",
+    "city": "LHR",
+    "price_per_night": 85,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "parking",
+      "pool",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Signature",
+    "locality": "Bockenheim",
+    "city": "FRA",
+    "price_per_night": 281,
+    "star_rating": 4,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "ev_charging",
+      "parking",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Signature",
+    "locality": "Shibuya",
+    "city": "NRT",
+    "price_per_night": 398,
+    "star_rating": 5,
+    "amenity_list": [
+      "business_center",
+      "gym",
+      "pet_friendly",
+      "pool",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "JW Inn",
+    "locality": "Pyrmont",
+    "city": "SYD",
+    "price_per_night": 186,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "breakfast",
+      "ev_charging",
+      "pool",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "The Grand Elite",
+    "locality": "Palm Jumeirah",
+    "city": "DXB",
+    "price_per_night": 159,
+    "star_rating": 4,
+    "amenity_list": [
+      "ev_charging",
+      "gym",
+      "parking",
+      "pool",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "St. Regis Resort",
+    "locality": "Electronic City",
+    "city": "BLR",
+    "price_per_night": 254,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "concierge",
+      "ev_charging",
+      "restaurant",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Peninsula Orchid",
+    "locality": "Jurong East",
+    "city": "SIN",
+    "price_per_night": 88,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "laundry",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "ITC Signature",
+    "locality": "Brooklyn",
+    "city": "JFK",
+    "price_per_night": 224,
+    "star_rating": 4,
+    "amenity_list": [
+      "business_center",
+      "concierge",
+      "laundry",
+      "parking",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Oberoi Imperial",
+    "locality": "Hollywood",
+    "city": "LAX",
+    "price_per_night": 140,
+    "star_rating": 3,
+    "amenity_list": [
+      "breakfast",
+      "ev_charging",
+      "gym",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Retreat",
+    "locality": "Saint-Germain",
+    "city": "CDG",
+    "price_per_night": 226,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "business_center",
+      "concierge",
+      "ev_charging",
+      "room_service",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "The Palace",
+    "locality": "Westminster",
+    "city": "LHR",
+    "price_per_night": 886,
+    "star_rating": 5,
+    "amenity_list": [
+      "business_center",
+      "laundry",
+      "parking",
+      "pool",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Vista",
+    "locality": "Bockenheim",
+    "city": "FRA",
+    "price_per_night": 107,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "gym",
+      "pet_friendly",
+      "restaurant",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Marriott Towers",
+    "locality": "Ginza",
+    "city": "NRT",
+    "price_per_night": 165,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "laundry",
+      "room_service",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Gardens",
+    "locality": "Circular Quay",
+    "city": "SYD",
+    "price_per_night": 214,
+    "star_rating": 4,
+    "amenity_list": [
+      "airport_shuttle",
+      "bar",
+      "breakfast",
+      "laundry",
+      "pool"
+    ]
+  },
+  {
+    "hotel_name": "Park Gardens",
+    "locality": "Deira",
+    "city": "DXB",
+    "price_per_night": 402,
+    "star_rating": 5,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "pool",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Novotel Terrace",
+    "locality": "Rajajinagar",
+    "city": "BLR",
+    "price_per_night": 99,
+    "star_rating": 3,
+    "amenity_list": [
+      "business_center",
+      "ev_charging",
+      "gym",
+      "laundry",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Le M\u00e9ridien Resort",
+    "locality": "Little India",
+    "city": "SIN",
+    "price_per_night": 47,
+    "star_rating": 1,
+    "amenity_list": [
+      "pet_friendly",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Radisson Premier",
+    "locality": "Chelsea",
+    "city": "JFK",
+    "price_per_night": 107,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "business_center",
+      "parking",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Westin Residency",
+    "locality": "Downtown LA",
+    "city": "LAX",
+    "price_per_night": 67,
+    "star_rating": 2,
+    "amenity_list": [
+      "breakfast",
+      "concierge",
+      "ev_charging",
+      "parking",
+      "room_service"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Orchid",
+    "locality": "Pigalle",
+    "city": "CDG",
+    "price_per_night": 53,
+    "star_rating": 2,
+    "amenity_list": [
+      "ev_charging",
+      "laundry",
+      "pet_friendly"
+    ]
+  },
+  {
+    "hotel_name": "Marriott Palace",
+    "locality": "Canary Wharf",
+    "city": "LHR",
+    "price_per_night": 113,
+    "star_rating": 3,
+    "amenity_list": [
+      "bar",
+      "concierge",
+      "ev_charging",
+      "gym",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "InterContinental Regency",
+    "locality": "Westend",
+    "city": "FRA",
+    "price_per_night": 139,
+    "star_rating": 3,
+    "amenity_list": [
+      "ev_charging",
+      "pet_friendly",
+      "pool",
+      "restaurant",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "W Haven",
+    "locality": "Ginza",
+    "city": "NRT",
+    "price_per_night": 62,
+    "star_rating": 1,
+    "amenity_list": [
+      "bar",
+      "gym"
+    ]
+  },
+  {
+    "hotel_name": "Fairmont Gardens",
+    "locality": "Surry Hills",
+    "city": "SYD",
+    "price_per_night": 111,
+    "star_rating": 2,
+    "amenity_list": [
+      "bar",
+      "breakfast",
+      "business_center",
+      "spa",
+      "wifi"
+    ]
+  },
+  {
+    "hotel_name": "Hilton Palace",
+    "locality": "Deira",
+    "city": "DXB",
+    "price_per_night": 116,
+    "star_rating": 2,
+    "amenity_list": [
+      "business_center",
+      "ev_charging",
+      "restaurant",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Aloft Palace",
+    "locality": "Indiranagar",
+    "city": "BLR",
+    "price_per_night": 163,
+    "star_rating": 3,
+    "amenity_list": [
+      "airport_shuttle",
+      "concierge",
+      "pool",
+      "room_service",
+      "spa"
+    ]
+  },
+  {
+    "hotel_name": "Hyatt Oasis",
+    "locality": "Novena",
+    "city": "SIN",
+    "price_per_night": 883,
+    "star_rating": 5,
+    "amenity_list": [
+      "concierge",
+      "gym",
+      "laundry",
+      "parking",
+      "pet_friendly",
+      "pool",
+      "restaurant",
+      "spa"
+    ]
+  }
+]
