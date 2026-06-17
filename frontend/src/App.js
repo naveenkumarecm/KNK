@@ -281,7 +281,12 @@ function App() {
                 const updated = [...prev];
                 const last = updated[updated.length - 1];
                 if (last?.role === 'assistant') {
-                  updated[updated.length - 1] = { ...last, content: last.content + event.content };
+                  let text = event.content;
+                  // Replace agent execution messages with friendly status
+                  if (text.match(/\[Executing:.*?\]/)) {
+                    text = text.replace(/\[Executing:.*?\]/g, '🔄 *Working on it... connecting with our travel services*\n\n');
+                  }
+                  updated[updated.length - 1] = { ...last, content: last.content + text };
                 }
                 return updated;
               });
