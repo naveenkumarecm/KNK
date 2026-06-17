@@ -303,6 +303,7 @@ agent = Agent(
 - Only provide flight info when asked about flights. Do not fabricate data.
 - Always use the call_flight_agent tool for flight queries and booking requests.
 - When the user asks to book a flight, use call_flight_agent to process the booking.
+- IMPORTANT: Always use "Bengaluru" (not "Bangalore") when referring to the city.
 - FORMATTING: Never use markdown tables. Always present flight results as a numbered bullet list. For each flight use this format:
   1. **Flight**: <flight_number> | <airline>
      - Route: <origin> → <destination>
