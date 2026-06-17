@@ -179,9 +179,9 @@ function FlagBadge({ label, active }) {
   return (
     <span style={{
       ...ipStyles.badge,
-      background: active ? '#fee2e2' : '#f0fdf4',
-      color: active ? '#dc2626' : '#16a34a',
-      border: `1px solid ${active ? '#fca5a5' : '#86efac'}`,
+      background: active ? '#3d0000' : '#0a2e1a',
+      color: active ? '#ff6b6b' : '#6bcf7f',
+      border: `1px solid ${active ? '#8b0000' : '#2d6b3f'}`,
     }}>
       {active ? '⚠️' : '✓'} {label}
     </span>
@@ -190,28 +190,28 @@ function FlagBadge({ label, active }) {
 
 function getRiskColor(decision) {
   switch (decision) {
-    case 'BLOCK': return '#dc2626';
-    case 'STEP_UP_AUTH': return '#ea580c';
-    case 'HIGH_RISK': return '#dc2626';
-    case 'MEDIUM_RISK': return '#d97706';
-    case 'DELAY': return '#d97706';
-    case 'CONFIRM': return '#2563eb';
-    case 'LOW_RISK': return '#16a34a';
-    case 'ALLOW': return '#16a34a';
-    default: return '#6b7280';
+    case 'BLOCK': return '#ff4444';
+    case 'STEP_UP_AUTH': return '#ff8c00';
+    case 'HIGH_RISK': return '#ff4444';
+    case 'MEDIUM_RISK': return '#ffaa00';
+    case 'DELAY': return '#ffaa00';
+    case 'CONFIRM': return '#4dabf7';
+    case 'LOW_RISK': return '#51cf66';
+    case 'ALLOW': return '#51cf66';
+    default: return '#868e96';
   }
 }
 
 function getScoreColor(score) {
-  if (score >= 70) return '#dc2626';
-  if (score >= 40) return '#d97706';
-  return '#16a34a';
+  if (score >= 70) return '#ff4444';
+  if (score >= 40) return '#ffaa00';
+  return '#51cf66';
 }
 
 function getScamColor(indicator) {
-  if (indicator === 'NONE') return '#16a34a';
-  if (indicator === 'INVOICE_REDIRECTION') return '#dc2626';
-  return '#ea580c';
+  if (indicator === 'NONE') return '#51cf66';
+  if (indicator === 'INVOICE_REDIRECTION') return '#ff4444';
+  return '#ff8c00';
 }
 
 function formatAction(action) {
@@ -346,13 +346,16 @@ function App() {
   return (
     <div style={styles.container}>
       <div style={styles.banner}>
-        <h1 style={styles.title}>✈️ AnyCompany AI Travel Assistant</h1>
-        <p style={styles.subtitle}>Flight Search & Booking | IP Intelligence | Purpose of Payment Analysis</p>
+        <div style={styles.bannerInner}>
+          <h1 style={styles.title}>AnyCompany</h1>
+          <p style={styles.subtitle}>Fraud Intelligence Platform</p>
+          <div style={styles.bannerAccent}></div>
+        </div>
       </div>
 
       <div style={styles.tabs}>
         <button onClick={() => setActiveTab('chat')} style={activeTab === 'chat' ? styles.activeTab : styles.tab}>
-          💬 Chat
+          💬 Travel Assistant
         </button>
         <button onClick={() => setActiveTab('ipIntel')} style={activeTab === 'ipIntel' ? styles.activeTab : styles.tab}>
           🛡️ IP Intelligence
@@ -366,7 +369,11 @@ function App() {
         <>
           <div style={styles.chatArea}>
             {messages.length === 0 && (
-              <div style={styles.empty}>Ask me to search for flights!</div>
+              <div style={styles.empty}>
+                <div style={styles.emptyIcon}>✈️</div>
+                <div style={styles.emptyText}>Ask me to search for flights</div>
+                <div style={styles.emptyHint}>Try: "Find flights from London to New York"</div>
+              </div>
             )}
             {messages.map((msg, i) => (
               <div key={i} style={msg.role === 'user' ? styles.userRow : styles.assistantRow}>
@@ -394,8 +401,7 @@ function App() {
           <div style={ipStyles.inputSection}>
             <h2 style={ipStyles.sectionTitle}>Device IP Address Intelligence</h2>
             <p style={ipStyles.description}>
-              Evaluate IP address risk profile for fraud detection. Checks VPN/Proxy/TOR usage,
-              geo-location risk, velocity anomalies, and reputation scoring.
+              Real-time IP risk profiling. Detects VPN, Proxy, TOR networks, geo-anomalies, and velocity spikes.
             </p>
             <div style={ipStyles.inputRow}>
               <input style={ipStyles.ipInput} value={ipInput} onChange={e => setIpInput(e.target.value)}
@@ -404,15 +410,15 @@ function App() {
               <input style={ipStyles.amountInput} value={transactionAmount}
                 onChange={e => setTransactionAmount(e.target.value)} placeholder="Amount ($)" type="number" />
               <button onClick={checkIp} style={ipStyles.checkBtn} disabled={ipLoading}>
-                {ipLoading ? '⏳ Analyzing...' : '🔍 Analyze IP'}
+                {ipLoading ? '⏳' : '🔍 Analyze'}
               </button>
             </div>
             <div style={ipStyles.sampleIps}>
-              <span style={ipStyles.sampleLabel}>Sample IPs:</span>
-              <button style={ipStyles.sampleBtn} onClick={() => setIpInput('185.220.100.240')}>TOR Exit Node</button>
+              <span style={ipStyles.sampleLabel}>Quick test:</span>
+              <button style={ipStyles.sampleBtn} onClick={() => setIpInput('185.220.100.240')}>TOR Node</button>
               <button style={ipStyles.sampleBtn} onClick={() => setIpInput('10.8.0.1')}>VPN</button>
-              <button style={ipStyles.sampleBtn} onClick={() => setIpInput('203.0.113.50')}>Proxy + High-Risk Geo</button>
-              <button style={ipStyles.sampleBtn} onClick={() => setIpInput('192.168.1.100')}>Clean IP</button>
+              <button style={ipStyles.sampleBtn} onClick={() => setIpInput('203.0.113.50')}>Proxy</button>
+              <button style={ipStyles.sampleBtn} onClick={() => setIpInput('192.168.1.100')}>Clean</button>
             </div>
           </div>
           <IPIntelligencePanel ipResult={ipResult} loading={ipLoading} />
@@ -435,11 +441,8 @@ function App() {
                   <div style={ipStyles.cardValue}>{ipResult.fullRiskAssessment.decision}</div>
                 </div>
                 <div style={ipStyles.card}>
-                  <div style={ipStyles.cardTitle}>Processing Time</div>
-                  <div style={ipStyles.cardValue}>
-                    {ipResult.fullRiskAssessment.processingTimeMs}ms
-                    {ipResult.fullRiskAssessment.withinSla ? ' ✅' : ' ⚠️'}
-                  </div>
+                  <div style={ipStyles.cardTitle}>Latency</div>
+                  <div style={ipStyles.cardValue}>{ipResult.fullRiskAssessment.processingTimeMs}ms {ipResult.fullRiskAssessment.withinSla ? '✅' : '⚠️'}</div>
                 </div>
               </div>
             </div>
@@ -452,37 +455,26 @@ function App() {
           <div style={ipStyles.inputSection}>
             <h2 style={ipStyles.sectionTitle}>Purpose of Payment Intelligence</h2>
             <p style={ipStyles.description}>
-              Analyze payment references and purpose codes for scam patterns, social engineering indicators,
-              and behavioural deviations. Detects investment scams, romance scams, impersonation, and invoice redirection.
+              Semantic analysis of payment references. Detects investment scams, romance fraud, impersonation, and invoice redirection.
             </p>
             <div style={ipStyles.inputRow}>
               <input style={{...ipStyles.ipInput, flex: 3}} value={purposeInput}
                 onChange={e => setPurposeInput(e.target.value)}
                 onKeyDown={e => e.key === 'Enter' && checkPurpose()}
-                placeholder="Enter payment reference (e.g., Investment in crypto trading platform)" />
+                placeholder="Enter payment reference or purpose..." />
               <input style={ipStyles.amountInput} value={purposeAmount}
                 onChange={e => setPurposeAmount(e.target.value)} placeholder="Amount ($)" type="number" />
               <button onClick={checkPurpose} style={ipStyles.checkBtn} disabled={purposeLoading}>
-                {purposeLoading ? '⏳ Analyzing...' : '📋 Analyze Purpose'}
+                {purposeLoading ? '⏳' : '📋 Analyze'}
               </button>
             </div>
             <div style={ipStyles.sampleIps}>
-              <span style={ipStyles.sampleLabel}>Sample references:</span>
-              <button style={ipStyles.sampleBtn} onClick={() => setPurposeInput('Urgent investment in crypto trading platform - guaranteed returns')}>
-                Investment Scam
-              </button>
-              <button style={ipStyles.sampleBtn} onClick={() => setPurposeInput('Help my partner stuck abroad - hospital bill urgent')}>
-                Romance Scam
-              </button>
-              <button style={ipStyles.sampleBtn} onClick={() => setPurposeInput('HMRC tax refund - verify identity immediately')}>
-                Impersonation
-              </button>
-              <button style={ipStyles.sampleBtn} onClick={() => setPurposeInput('Updated bank details for invoice #4521 - new account number')}>
-                Invoice Redirect
-              </button>
-              <button style={ipStyles.sampleBtn} onClick={() => setPurposeInput('Monthly rent payment to landlord')}>
-                Clean Payment
-              </button>
+              <span style={ipStyles.sampleLabel}>Quick test:</span>
+              <button style={ipStyles.sampleBtn} onClick={() => setPurposeInput('Urgent investment in crypto trading platform - guaranteed returns')}>Investment Scam</button>
+              <button style={ipStyles.sampleBtn} onClick={() => setPurposeInput('Help my partner stuck abroad - hospital bill urgent')}>Romance Scam</button>
+              <button style={ipStyles.sampleBtn} onClick={() => setPurposeInput('HMRC tax refund - verify identity immediately')}>Impersonation</button>
+              <button style={ipStyles.sampleBtn} onClick={() => setPurposeInput('Updated bank details for invoice #4521 - new account number')}>Invoice Redirect</button>
+              <button style={ipStyles.sampleBtn} onClick={() => setPurposeInput('Monthly rent payment to landlord')}>Clean</button>
             </div>
           </div>
           <PurposeAnalysisPanel result={purposeResult} loading={purposeLoading} />
@@ -505,11 +497,8 @@ function App() {
                   <div style={ipStyles.cardValue}>{purposeResult.fullRiskAssessment.decision}</div>
                 </div>
                 <div style={ipStyles.card}>
-                  <div style={ipStyles.cardTitle}>Processing Time</div>
-                  <div style={ipStyles.cardValue}>
-                    {purposeResult.fullRiskAssessment.processingTimeMs}ms
-                    {purposeResult.fullRiskAssessment.withinSla ? ' ✅ Within SLA' : ' ⚠️ SLA Exceeded'}
-                  </div>
+                  <div style={ipStyles.cardTitle}>Latency</div>
+                  <div style={ipStyles.cardValue}>{purposeResult.fullRiskAssessment.processingTimeMs}ms {purposeResult.fullRiskAssessment.withinSla ? '✅' : '⚠️'}</div>
                 </div>
               </div>
               <div style={ipStyles.breakdown}>
@@ -533,79 +522,114 @@ function App() {
 
 const styles = {
   container: { display: 'flex', flexDirection: 'column', height: '100vh',
-    fontFamily: '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif', background: '#f5f5f5' },
-  banner: { background: 'linear-gradient(135deg, #1a237e, #0d47a1)', color: '#fff', padding: '16px 24px', textAlign: 'center' },
-  title: { margin: 0, fontSize: '1.5rem' },
-  subtitle: { margin: '4px 0 0', fontSize: '0.85rem', opacity: 0.8 },
-  tabs: { display: 'flex', background: '#fff', borderBottom: '1px solid #e0e0e0', padding: '0 24px' },
-  tab: { padding: '12px 24px', border: 'none', background: 'transparent', fontSize: '0.95rem',
-    cursor: 'pointer', color: '#666', borderBottom: '3px solid transparent' },
-  activeTab: { padding: '12px 24px', border: 'none', background: 'transparent', fontSize: '0.95rem',
-    cursor: 'pointer', color: '#1a237e', borderBottom: '3px solid #1a237e', fontWeight: '600' },
-  chatArea: { flex: 1, overflowY: 'auto', padding: '16px 24px', display: 'flex', flexDirection: 'column', gap: '12px' },
-  empty: { textAlign: 'center', color: '#999', marginTop: '40px', fontSize: '1.1rem' },
+    fontFamily: '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+    background: '#0f0f13' },
+  banner: {
+    background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
+    padding: '24px 32px', borderBottom: '1px solid rgba(212, 175, 55, 0.3)',
+    position: 'relative', overflow: 'hidden',
+  },
+  bannerInner: { position: 'relative', zIndex: 1, textAlign: 'center' },
+  title: { margin: 0, fontSize: '1.8rem', color: '#d4af37',
+    fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' },
+  subtitle: { margin: '6px 0 0', fontSize: '0.9rem', color: '#a0aec0', letterSpacing: '1px' },
+  bannerAccent: {
+    position: 'absolute', top: 0, right: 0, width: '200px', height: '100%',
+    background: 'linear-gradient(135deg, transparent, rgba(212,175,55,0.05))',
+  },
+  tabs: { display: 'flex', background: '#1a1a2e', borderBottom: '1px solid #2d2d44', padding: '0 24px' },
+  tab: { padding: '14px 28px', border: 'none', background: 'transparent', fontSize: '0.9rem',
+    cursor: 'pointer', color: '#6b7280', borderBottom: '3px solid transparent',
+    transition: 'all 0.2s ease', letterSpacing: '0.5px' },
+  activeTab: { padding: '14px 28px', border: 'none', background: 'transparent', fontSize: '0.9rem',
+    cursor: 'pointer', color: '#d4af37', borderBottom: '3px solid #d4af37', fontWeight: '600',
+    letterSpacing: '0.5px' },
+  chatArea: { flex: 1, overflowY: 'auto', padding: '24px 32px', display: 'flex',
+    flexDirection: 'column', gap: '16px', background: '#0f0f13' },
+  empty: { textAlign: 'center', marginTop: '60px' },
+  emptyIcon: { fontSize: '3rem', marginBottom: '12px' },
+  emptyText: { color: '#a0aec0', fontSize: '1.2rem', fontWeight: '500' },
+  emptyHint: { color: '#4a5568', fontSize: '0.9rem', marginTop: '8px' },
   userRow: { display: 'flex', justifyContent: 'flex-end' },
   assistantRow: { display: 'flex', justifyContent: 'flex-start' },
-  userBubble: { background: '#1a237e', color: '#fff', padding: '10px 16px',
-    borderRadius: '16px 16px 4px 16px', maxWidth: '70%', whiteSpace: 'pre-wrap' },
-  assistantBubble: { background: '#fff', color: '#222', padding: '10px 16px',
-    borderRadius: '16px 16px 16px 4px', maxWidth: '80%', boxShadow: '0 1px 3px rgba(0,0,0,0.1)', lineHeight: 1.5 },
-  inputArea: { display: 'flex', gap: '8px', padding: '12px 24px', background: '#fff', borderTop: '1px solid #e0e0e0' },
-  input: { flex: 1, padding: '12px 16px', fontSize: '1rem', border: '1px solid #ccc', borderRadius: '24px', outline: 'none' },
-  sendBtn: { padding: '12px 20px', fontSize: '1.2rem', border: 'none',
-    background: '#1a237e', color: '#fff', borderRadius: '24px', cursor: 'pointer' },
-  newBtn: { padding: '12px 16px', fontSize: '1.1rem', border: '1px solid #ccc',
-    background: '#fff', borderRadius: '24px', cursor: 'pointer' },
+  userBubble: { background: 'linear-gradient(135deg, #2d2d44, #1a1a2e)', color: '#e2e8f0',
+    padding: '12px 18px', borderRadius: '18px 18px 4px 18px', maxWidth: '70%',
+    whiteSpace: 'pre-wrap', border: '1px solid #d4af37', boxShadow: '0 2px 8px rgba(0,0,0,0.3)' },
+  assistantBubble: { background: '#1a1a2e', color: '#e2e8f0', padding: '12px 18px',
+    borderRadius: '18px 18px 18px 4px', maxWidth: '80%', border: '1px solid #2d2d44',
+    boxShadow: '0 2px 8px rgba(0,0,0,0.3)', lineHeight: 1.6 },
+  inputArea: { display: 'flex', gap: '10px', padding: '16px 32px',
+    background: '#1a1a2e', borderTop: '1px solid #2d2d44' },
+  input: { flex: 1, padding: '14px 20px', fontSize: '0.95rem', border: '1px solid #2d2d44',
+    borderRadius: '12px', outline: 'none', background: '#0f0f13', color: '#e2e8f0',
+    transition: 'border-color 0.2s' },
+  sendBtn: { padding: '14px 22px', fontSize: '1.1rem', border: 'none',
+    background: 'linear-gradient(135deg, #d4af37, #b8960c)', color: '#0f0f13',
+    borderRadius: '12px', cursor: 'pointer', fontWeight: '700' },
+  newBtn: { padding: '14px 18px', fontSize: '1rem', border: '1px solid #2d2d44',
+    background: '#0f0f13', color: '#a0aec0', borderRadius: '12px', cursor: 'pointer' },
 };
 
 const ipStyles = {
-  container: { flex: 1, overflowY: 'auto', padding: '24px' },
-  inputSection: { background: '#fff', borderRadius: '12px', padding: '24px',
-    boxShadow: '0 1px 3px rgba(0,0,0,0.1)', marginBottom: '20px' },
-  sectionTitle: { margin: '0 0 8px', fontSize: '1.3rem', color: '#1a237e' },
-  description: { margin: '0 0 16px', color: '#666', fontSize: '0.9rem' },
-  inputRow: { display: 'flex', gap: '8px', marginBottom: '12px' },
-  ipInput: { flex: 2, padding: '12px 16px', fontSize: '1rem', border: '1px solid #ccc', borderRadius: '8px', outline: 'none' },
-  amountInput: { flex: 1, padding: '12px 16px', fontSize: '1rem', border: '1px solid #ccc', borderRadius: '8px', outline: 'none' },
-  checkBtn: { padding: '12px 24px', fontSize: '0.95rem', border: 'none',
-    background: '#1a237e', color: '#fff', borderRadius: '8px', cursor: 'pointer', whiteSpace: 'nowrap' },
+  container: { flex: 1, overflowY: 'auto', padding: '28px 32px', background: '#0f0f13' },
+  inputSection: { background: '#1a1a2e', borderRadius: '16px', padding: '28px',
+    border: '1px solid #2d2d44', marginBottom: '24px', boxShadow: '0 4px 16px rgba(0,0,0,0.4)' },
+  sectionTitle: { margin: '0 0 8px', fontSize: '1.4rem', color: '#d4af37', fontWeight: '600' },
+  description: { margin: '0 0 20px', color: '#718096', fontSize: '0.9rem', lineHeight: 1.5 },
+  inputRow: { display: 'flex', gap: '10px', marginBottom: '14px' },
+  ipInput: { flex: 2, padding: '14px 18px', fontSize: '0.95rem', border: '1px solid #2d2d44',
+    borderRadius: '10px', outline: 'none', background: '#0f0f13', color: '#e2e8f0' },
+  amountInput: { flex: 1, padding: '14px 18px', fontSize: '0.95rem', border: '1px solid #2d2d44',
+    borderRadius: '10px', outline: 'none', background: '#0f0f13', color: '#e2e8f0' },
+  checkBtn: { padding: '14px 24px', fontSize: '0.9rem', border: 'none',
+    background: 'linear-gradient(135deg, #d4af37, #b8960c)', color: '#0f0f13',
+    borderRadius: '10px', cursor: 'pointer', fontWeight: '700', whiteSpace: 'nowrap',
+    letterSpacing: '0.5px' },
   sampleIps: { display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' },
-  sampleLabel: { fontSize: '0.85rem', color: '#666' },
-  sampleBtn: { padding: '6px 12px', fontSize: '0.8rem', border: '1px solid #ddd',
-    background: '#f8f9fa', borderRadius: '16px', cursor: 'pointer' },
-  panel: { background: '#fff', borderRadius: '12px', padding: '24px',
-    boxShadow: '0 1px 3px rgba(0,0,0,0.1)', marginBottom: '20px' },
-  header: { fontSize: '1.1rem', fontWeight: '600', color: '#1a237e',
-    marginBottom: '16px', paddingBottom: '8px', borderBottom: '1px solid #e5e7eb' },
-  loading: { textAlign: 'center', padding: '20px', color: '#666' },
-  grid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '12px', marginBottom: '16px' },
-  card: { background: '#f8f9fa', borderRadius: '8px', padding: '12px 16px' },
-  cardTitle: { fontSize: '0.75rem', color: '#666', textTransform: 'uppercase', letterSpacing: '0.05em', marginBottom: '4px' },
-  cardValue: { fontSize: '1rem', color: '#1f2937', fontWeight: '500' },
-  flagsSection: { marginBottom: '16px' },
-  flagsTitle: { fontSize: '0.85rem', fontWeight: '600', color: '#374151', marginBottom: '8px' },
+  sampleLabel: { fontSize: '0.8rem', color: '#718096' },
+  sampleBtn: { padding: '6px 14px', fontSize: '0.78rem', border: '1px solid #2d2d44',
+    background: '#0f0f13', color: '#a0aec0', borderRadius: '20px', cursor: 'pointer',
+    transition: 'all 0.2s' },
+  panel: { background: '#1a1a2e', borderRadius: '16px', padding: '28px',
+    border: '1px solid #2d2d44', marginBottom: '24px', boxShadow: '0 4px 16px rgba(0,0,0,0.4)' },
+  header: { fontSize: '1.1rem', fontWeight: '600', color: '#d4af37',
+    marginBottom: '20px', paddingBottom: '10px', borderBottom: '1px solid #2d2d44' },
+  loading: { textAlign: 'center', padding: '24px', color: '#718096' },
+  grid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
+    gap: '14px', marginBottom: '20px' },
+  card: { background: '#0f0f13', borderRadius: '12px', padding: '16px 20px',
+    border: '1px solid #2d2d44' },
+  cardTitle: { fontSize: '0.7rem', color: '#718096', textTransform: 'uppercase',
+    letterSpacing: '0.08em', marginBottom: '6px', fontWeight: '600' },
+  cardValue: { fontSize: '1rem', color: '#e2e8f0', fontWeight: '500' },
+  flagsSection: { marginBottom: '20px' },
+  flagsTitle: { fontSize: '0.8rem', fontWeight: '700', color: '#a0aec0', marginBottom: '10px',
+    textTransform: 'uppercase', letterSpacing: '0.05em' },
   flags: { display: 'flex', gap: '8px', flexWrap: 'wrap' },
-  badge: { padding: '4px 10px', borderRadius: '12px', fontSize: '0.8rem', fontWeight: '500' },
-  factorsSection: { marginBottom: '16px' },
+  badge: { padding: '6px 12px', borderRadius: '8px', fontSize: '0.78rem', fontWeight: '600' },
+  factorsSection: { marginBottom: '20px' },
   factors: { display: 'flex', gap: '8px', flexWrap: 'wrap' },
-  factorBadge: { padding: '4px 10px', borderRadius: '4px', fontSize: '0.75rem',
-    background: '#fef3c7', color: '#92400e', border: '1px solid #fcd34d', fontFamily: 'monospace' },
-  actionsSection: { marginBottom: '16px' },
-  actionsList: { margin: '4px 0', paddingLeft: '20px', fontSize: '0.9rem', color: '#374151' },
-  timestamp: { fontSize: '0.75rem', color: '#9ca3af', textAlign: 'right' },
-  fullAssessment: { background: '#fff', borderRadius: '12px', padding: '24px',
-    boxShadow: '0 1px 3px rgba(0,0,0,0.1)', marginBottom: '20px' },
-  breakdown: { marginTop: '16px' },
-  breakdownGrid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '8px' },
-  breakdownItem: { display: 'flex', justifyContent: 'space-between', padding: '8px 12px', background: '#f8f9fa', borderRadius: '6px' },
-  breakdownLabel: { fontSize: '0.8rem', color: '#666', textTransform: 'capitalize' },
-  breakdownValue: { fontSize: '0.9rem', fontWeight: '600', color: '#1f2937' },
+  factorBadge: { padding: '5px 12px', borderRadius: '6px', fontSize: '0.72rem',
+    background: '#2d1f00', color: '#d4af37', border: '1px solid #5c4a1e',
+    fontFamily: '"JetBrains Mono", monospace', fontWeight: '500' },
+  actionsSection: { marginBottom: '20px' },
+  actionsList: { margin: '4px 0', paddingLeft: '20px', fontSize: '0.88rem', color: '#e2e8f0', lineHeight: 1.8 },
+  timestamp: { fontSize: '0.72rem', color: '#4a5568', textAlign: 'right', fontStyle: 'italic' },
+  fullAssessment: { background: '#1a1a2e', borderRadius: '16px', padding: '28px',
+    border: '1px solid #2d2d44', marginBottom: '24px', boxShadow: '0 4px 16px rgba(0,0,0,0.4)' },
+  breakdown: { marginTop: '20px' },
+  breakdownGrid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '10px' },
+  breakdownItem: { display: 'flex', justifyContent: 'space-between', padding: '10px 14px',
+    background: '#0f0f13', borderRadius: '8px', border: '1px solid #2d2d44' },
+  breakdownLabel: { fontSize: '0.78rem', color: '#718096', textTransform: 'capitalize' },
+  breakdownValue: { fontSize: '0.9rem', fontWeight: '700', color: '#d4af37' },
 };
 
 const purposeStyles = {
-  warningsSection: { marginBottom: '16px' },
-  warningBox: { background: '#fef3c7', border: '1px solid #f59e0b', borderRadius: '8px',
-    padding: '12px 16px', marginBottom: '8px', fontSize: '0.9rem', color: '#92400e', lineHeight: 1.5 },
+  warningsSection: { marginBottom: '20px' },
+  warningBox: { background: 'linear-gradient(135deg, #3d2600, #2d1f00)', border: '1px solid #d4af37',
+    borderRadius: '10px', padding: '14px 18px', marginBottom: '10px', fontSize: '0.88rem',
+    color: '#fbd38d', lineHeight: 1.6, boxShadow: '0 2px 8px rgba(212,175,55,0.1)' },
 };
 
 export default App;
