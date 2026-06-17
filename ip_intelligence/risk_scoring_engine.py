@@ -1,11 +1,11 @@
 """
-Risk Scoring Engine with IP Intelligence Integration.
+Risk Scoring Engine with IP Intelligence and Purpose Analysis Integration.
 
 Updated formula:
-    riskScore = amountScore + copScore + behaviouralScore + channelScore + ipRiskScore
+    riskScore = amountScore + copScore + behaviouralScore + channelScore + ipRiskScore + purposeRiskScore
 
-This module integrates IP-based scoring into the overall fraud risk decisioning
-while maintaining the <300ms SLA requirement.
+This module integrates IP-based scoring and purpose-of-payment analysis
+into the overall fraud risk decisioning while maintaining the <300ms SLA requirement.
 """
 
 import json
@@ -120,6 +120,47 @@ class RiskScoringEngine:
 
         return score
 
+    def calculate_purpose_risk_score(self, purpose_analysis: dict) -> int:
+        """
+        Calculate purpose-based risk score.
+
+        Signal                      | Condition                    | Score Impact
+        Scam keywords               | crypto, urgent, investment   | +30
+        High-risk category          | INVESTMENT / UNKNOWN         | +25
+        Known scam pattern          | invoice redirection          | +50
+        Behaviour deviation         | first-time pattern           | +25
+        Low confidence              | ambiguous intent             | +10
+        Urgency amplifier           | urgent language detected     | +15
+        """
+        if not purpose_analysis:
+            return 0
+
+        score = 0
+        scam_indicator = purpose_analysis.get("scamIndicator", "NONE")
+        category = purpose_analysis.get("purposeCategory", "UNKNOWN")
+        confidence = purpose_analysis.get("confidenceScore", 0)
+        has_deviation = purpose_analysis.get("historicalDeviation", False)
+        has_urgency = purpose_analysis.get("urgencyDetected", False)
+
+        if scam_indicator == "INVOICE_REDIRECTION":
+            score += 50
+        elif scam_indicator in ("INVESTMENT_SCAM", "ROMANCE_SCAM", "IMPERSONATION"):
+            score += 30
+
+        if category in ("INVESTMENT", "UNKNOWN"):
+            score += 25
+
+        if has_deviation:
+            score += 25
+
+        if confidence < 0.5 and category != "UNKNOWN":
+            score += 10
+
+        if has_urgency:
+            score += 15
+
+        return score
+
     def calculate_total_risk_score(
         self,
         amount: float = 0,
@@ -127,11 +168,12 @@ class RiskScoringEngine:
         behavioural_signals: dict = None,
         channel_info: dict = None,
         ip_intelligence: dict = None,
+        purpose_analysis: dict = None,
     ) -> Dict[str, Any]:
         """
         Calculate the total risk score combining all risk signals.
 
-        riskScore = amountScore + copScore + behaviouralScore + channelScore + ipRiskScore
+        riskScore = amountScore + copScore + behaviouralScore + channelScore + ipRiskScore + purposeRiskScore
 
         Returns a comprehensive risk assessment within <300ms SLA.
         """
@@ -143,10 +185,11 @@ class RiskScoringEngine:
         behavioural_score = self.calculate_behavioural_score(behavioural_signals or {})
         channel_score = self.calculate_channel_score(channel_info or {})
         ip_risk_score = self.calculate_ip_risk_score(ip_intelligence or {})
+        purpose_risk_score = self.calculate_purpose_risk_score(purpose_analysis or {})
 
         # Total score (capped at 100)
         total_score = min(
-            amount_score + cop_score + behavioural_score + channel_score + ip_risk_score,
+            amount_score + cop_score + behavioural_score + channel_score + ip_risk_score + purpose_risk_score,
             100
         )
 
@@ -162,11 +205,11 @@ class RiskScoringEngine:
 
         # Determine decision
         decision = self._determine_decision(
-            risk_level, ip_intelligence or {}, amount
+            risk_level, ip_intelligence or {}, amount, purpose_analysis or {}
         )
 
         # Collect risk factors
-        risk_factors = self._collect_risk_factors(ip_intelligence or {})
+        risk_factors = self._collect_risk_factors(ip_intelligence or {}, purpose_analysis or {})
 
         elapsed_ms = (time.time() - self.start_time) * 1000
 
@@ -180,6 +223,7 @@ class RiskScoringEngine:
                 "behaviouralScore": behavioural_score,
                 "channelScore": channel_score,
                 "ipRiskScore": ip_risk_score,
+                "purposeRiskScore": purpose_risk_score,
             },
             "riskFactors": risk_factors,
             "processingTimeMs": round(elapsed_ms, 2),
@@ -187,16 +231,30 @@ class RiskScoringEngine:
         }
 
     def _determine_decision(
-        self, risk_level: str, ip_intelligence: dict, amount: float
+        self, risk_level: str, ip_intelligence: dict, amount: float, purpose_analysis: dict = None
     ) -> str:
         """Determine the action/decision based on risk assessment."""
+        purpose_analysis = purpose_analysis or {}
+
         # TOR usage -> Block or manual review
         if ip_intelligence.get("isTor"):
             return "BLOCK"
 
+        # Invoice redirection + high amount -> Block
+        if purpose_analysis.get("scamIndicator") == "INVOICE_REDIRECTION" and amount > 5000:
+            return "BLOCK"
+
+        # Scam detected -> Step-up
+        if purpose_analysis.get("scamIndicator") in ("INVESTMENT_SCAM", "ROMANCE_SCAM", "IMPERSONATION"):
+            return "STEP_UP_AUTH"
+
         # VPN + high-value payment -> Step-up authentication
         if (ip_intelligence.get("isVpn") or ip_intelligence.get("isProxy")) and amount > 1000:
             return "STEP_UP_AUTH"
+
+        # Purpose deviation -> Confirm
+        if purpose_analysis.get("historicalDeviation") and purpose_analysis.get("purposeCategory") != "PERSONAL_TRANSFER":
+            return "CONFIRM"
 
         # High-risk geo + velocity -> Delay
         if ip_intelligence.get("isHighRiskGeo") and ip_intelligence.get("velocityFlag"):
@@ -212,10 +270,12 @@ class RiskScoringEngine:
         else:
             return "ALLOW"
 
-    def _collect_risk_factors(self, ip_intelligence: dict) -> list:
+    def _collect_risk_factors(self, ip_intelligence: dict, purpose_analysis: dict = None) -> list:
         """Collect all triggered risk factors for audit/explainability."""
+        purpose_analysis = purpose_analysis or {}
         factors = []
 
+        # IP factors
         if ip_intelligence.get("isVpn"):
             factors.append("VPN_DETECTED")
         if ip_intelligence.get("isProxy"):
@@ -230,5 +290,23 @@ class RiskScoringEngine:
             factors.append("VELOCITY_ANOMALY")
         if ip_intelligence.get("isNewIp"):
             factors.append("NEW_UNSEEN_IP")
+
+        # Purpose factors
+        scam = purpose_analysis.get("scamIndicator", "NONE")
+        if scam == "INVESTMENT_SCAM":
+            factors.append("INVESTMENT_SCAM_PATTERN")
+        elif scam == "ROMANCE_SCAM":
+            factors.append("ROMANCE_SCAM_PATTERN")
+        elif scam == "IMPERSONATION":
+            factors.append("IMPERSONATION_PATTERN")
+        elif scam == "INVOICE_REDIRECTION":
+            factors.append("INVOICE_REDIRECTION_PATTERN")
+
+        if purpose_analysis.get("historicalDeviation"):
+            factors.append("PURPOSE_DEVIATION")
+        if purpose_analysis.get("purposeCategory") in ("INVESTMENT", "UNKNOWN"):
+            factors.append("HIGH_RISK_CATEGORY")
+        if purpose_analysis.get("urgencyDetected"):
+            factors.append("URGENCY_DETECTED")
 
         return factors

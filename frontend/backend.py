@@ -38,6 +38,95 @@ app = FastAPI()
 app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
 
 
+@app.post("/api/purpose-analysis")
+async def purpose_analysis(request: Request):
+    """
+    Purpose of Payment Analysis endpoint - evaluates payment reference for scam patterns.
+    Classifies payment purpose and detects social engineering indicators.
+    """
+    from purpose_analysis.purpose_analysis_lambda import lambda_handler as purpose_handler
+    from ip_intelligence.risk_scoring_engine import RiskScoringEngine
+
+    body = await request.json()
+
+    # Call Purpose Analysis Lambda
+    lambda_result = purpose_handler(body, None)
+
+    if lambda_result["statusCode"] != 200:
+        return JSONResponse(
+            status_code=lambda_result["statusCode"],
+            content=json.loads(lambda_result["body"])
+        )
+
+    result = json.loads(lambda_result["body"])
+
+    # Run through full risk scoring engine if transaction data provided
+    if body.get("transactionAmount"):
+        engine = RiskScoringEngine()
+        full_assessment = engine.calculate_total_risk_score(
+            amount=float(body.get("transactionAmount", 0)),
+            purpose_analysis=result["purposeAnalysis"],
+            channel_info=body.get("channelInfo"),
+            behavioural_signals=body.get("behaviouralSignals"),
+        )
+        result["fullRiskAssessment"] = full_assessment
+
+    return JSONResponse(content=result)
+
+
+@app.post("/api/combined-risk")
+async def combined_risk(request: Request):
+    """
+    Combined Risk Assessment - evaluates both IP intelligence and purpose analysis together.
+    Provides a unified risk score incorporating all signals.
+    """
+    from ip_intelligence.ip_intelligence_lambda import lambda_handler as ip_handler
+    from purpose_analysis.purpose_analysis_lambda import lambda_handler as purpose_handler
+    from ip_intelligence.risk_scoring_engine import RiskScoringEngine
+
+    body = await request.json()
+    ip_address = body.get("ipAddress", "")
+    payment_reference = body.get("paymentReference", "")
+    amount = float(body.get("transactionAmount", 0))
+
+    ip_result = None
+    purpose_result = None
+
+    # Run IP Intelligence if IP provided
+    if ip_address:
+        ip_resp = ip_handler({"ipAddress": ip_address, "userId": body.get("userId")}, None)
+        if ip_resp["statusCode"] == 200:
+            ip_result = json.loads(ip_resp["body"])
+
+    # Run Purpose Analysis if reference provided
+    if payment_reference:
+        purpose_resp = purpose_handler({
+            "paymentReference": payment_reference,
+            "userId": body.get("userId"),
+            "transactionAmount": amount,
+        }, None)
+        if purpose_resp["statusCode"] == 200:
+            purpose_result = json.loads(purpose_resp["body"])
+
+    # Combined risk scoring
+    engine = RiskScoringEngine()
+    full_assessment = engine.calculate_total_risk_score(
+        amount=amount,
+        ip_intelligence=ip_result["ipIntelligence"] if ip_result else None,
+        purpose_analysis=purpose_result["purposeAnalysis"] if purpose_result else None,
+        channel_info=body.get("channelInfo"),
+        behavioural_signals=body.get("behaviouralSignals"),
+    )
+
+    return JSONResponse(content={
+        "ipIntelligence": ip_result["ipIntelligence"] if ip_result else None,
+        "ipRiskAssessment": ip_result["riskAssessment"] if ip_result else None,
+        "purposeAnalysis": purpose_result["purposeAnalysis"] if purpose_result else None,
+        "purposeRiskAssessment": purpose_result["riskAssessment"] if purpose_result else None,
+        "combinedRiskAssessment": full_assessment,
+    })
+
+
 @app.post("/api/ip-intelligence")
 async def ip_intelligence(request: Request):
     """
