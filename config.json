@@ -1,0 +1,18 @@
+{
+  "region": "us-east-1",
+  "gateway_id": "exec-travellerappgwforlambda-t5xykp5kjs",
+  "gateway_url": "https://exec-travellerappgwforlambda-t5xykp5kjs.gateway.bedrock-agentcore.us-east-1.amazonaws.com/mcp",
+  "gateway_role_arn": "arn:aws:iam::464286614639:role/agentcore-exec-lambdagateway-role",
+  "cognito_user_pool_id": "us-east-1_78AwwyhzU",
+  "cognito_secret_name": "travel-assistant/cognito-credentials",
+  "cognito_discovery_url": "https://cognito-idp.us-east-1.amazonaws.com/us-east-1_78AwwyhzU/.well-known/openid-configuration",
+  "cognito_scope_string": "exec-agentcore-gateway-id/gateway:read exec-agentcore-gateway-id/gateway:write",
+  "lambda_arns": {
+    "exec_search_flights_lambda": "arn:aws:lambda:us-east-1:464286614639:function:exec_search_flights_lambda",
+    "exec_book_flight_lambda": "arn:aws:lambda:us-east-1:464286614639:function:exec_book_flight_lambda"
+  },
+  "flight_agent_arn": "arn:aws:bedrock-agentcore:us-east-1:464286614639:runtime/exec_flight_agent-U1mO2f8Pxz",
+  "supervisor_agent_arn": "arn:aws:bedrock-agentcore:us-east-1:464286614639:runtime/exec_supervisor_agent-SPV7nA70Ia",
+  "flight_role_name": "agentcore-exec-flight_agent-role",
+  "supervisor_role_name": "agentcore-exec-supervisor_agent-role"
+}
