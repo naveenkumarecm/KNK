@@ -18,7 +18,7 @@
     "airline": "Air India",
     "flight_number": "AI 100",
     "origin": "Dubai (DXB)",
-    "destination": "Bangalore (BLR)",
+    "destination": "Bengaluru (BLR)",
     "seat_class_available": {
       "economy": {
         "price_per_seat": 164
@@ -33,7 +33,7 @@
     "airline": "Qantas",
     "flight_number": "QF 100",
     "origin": "Sydney (SYD)",
-    "destination": "Bangalore (BLR)",
+    "destination": "Bengaluru (BLR)",
     "seat_class_available": {
       "economy": {
         "price_per_seat": 623
@@ -78,7 +78,7 @@
     "airline": "Air India",
     "flight_number": "AI 101",
     "origin": "Frankfurt (FRA)",
-    "destination": "Bangalore (BLR)",
+    "destination": "Bengaluru (BLR)",
     "seat_class_available": {
       "economy": {
         "price_per_seat": 572
@@ -243,7 +243,7 @@
     "airline": "Air India",
     "flight_number": "AI 102",
     "origin": "Paris (CDG)",
-    "destination": "Bangalore (BLR)",
+    "destination": "Bengaluru (BLR)",
     "seat_class_available": {
       "economy": {
         "price_per_seat": 584
@@ -482,7 +482,7 @@
   {
     "airline": "Emirates",
     "flight_number": "EK 103",
-    "origin": "Bangalore (BLR)",
+    "origin": "Bengaluru (BLR)",
     "destination": "Dubai (DXB)",
     "seat_class_available": {
       "economy": {
@@ -768,7 +768,7 @@
     "airline": "Air India",
     "flight_number": "AI 103",
     "origin": "London (LHR)",
-    "destination": "Bangalore (BLR)",
+    "destination": "Bengaluru (BLR)",
     "seat_class_available": {
       "economy": {
         "price_per_seat": 581
@@ -827,7 +827,7 @@
   {
     "airline": "Air India",
     "flight_number": "AI 104",
-    "origin": "Bangalore (BLR)",
+    "origin": "Bengaluru (BLR)",
     "destination": "Tokyo (NRT)",
     "seat_class_available": {
       "economy": {
@@ -843,7 +843,7 @@
     "airline": "Emirates",
     "flight_number": "EK 107",
     "origin": "Dubai (DXB)",
-    "destination": "Bangalore (BLR)",
+    "destination": "Bengaluru (BLR)",
     "seat_class_available": {
       "economy": {
         "price_per_seat": 176
@@ -1037,7 +1037,7 @@
   {
     "airline": "Air India",
     "flight_number": "AI 105",
-    "origin": "Bangalore (BLR)",
+    "origin": "Bengaluru (BLR)",
     "destination": "Frankfurt (FRA)",
     "seat_class_available": {
       "economy": {
@@ -1067,7 +1067,7 @@
   {
     "airline": "Air India",
     "flight_number": "AI 106",
-    "origin": "Bangalore (BLR)",
+    "origin": "Bengaluru (BLR)",
     "destination": "London (LHR)",
     "seat_class_available": {
       "economy": {
@@ -1218,7 +1218,7 @@
     "airline": "Air India",
     "flight_number": "AI 107",
     "origin": "London (LHR)",
-    "destination": "Bangalore (BLR)",
+    "destination": "Bengaluru (BLR)",
     "seat_class_available": {
       "economy": {
         "price_per_seat": 719
@@ -1308,7 +1308,7 @@
     "airline": "Air France",
     "flight_number": "AF 110",
     "origin": "Paris (CDG)",
-    "destination": "Bangalore (BLR)",
+    "destination": "Bengaluru (BLR)",
     "seat_class_available": {
       "economy": {
         "price_per_seat": 532
@@ -1457,7 +1457,7 @@
   {
     "airline": "Emirates",
     "flight_number": "EK 114",
-    "origin": "Bangalore (BLR)",
+    "origin": "Bengaluru (BLR)",
     "destination": "Dubai (DXB)",
     "seat_class_available": {
       "economy": {
