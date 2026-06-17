@@ -179,9 +179,9 @@ function FlagBadge({ label, active }) {
   return (
     <span style={{
       ...ipStyles.badge,
-      background: active ? '#3d0000' : '#0a2e1a',
-      color: active ? '#ff6b6b' : '#6bcf7f',
-      border: `1px solid ${active ? '#8b0000' : '#2d6b3f'}`,
+      background: active ? '#fde8e8' : '#e8f8ed',
+      color: active ? '#9b1c1c' : '#1e6f3e',
+      border: `1px solid ${active ? '#e8a0a0' : '#8fd4a4'}`,
     }}>
       {active ? '⚠️' : '✓'} {label}
     </span>
@@ -190,28 +190,28 @@ function FlagBadge({ label, active }) {
 
 function getRiskColor(decision) {
   switch (decision) {
-    case 'BLOCK': return '#ff4444';
-    case 'STEP_UP_AUTH': return '#ff8c00';
-    case 'HIGH_RISK': return '#ff4444';
-    case 'MEDIUM_RISK': return '#ffaa00';
-    case 'DELAY': return '#ffaa00';
-    case 'CONFIRM': return '#4dabf7';
-    case 'LOW_RISK': return '#51cf66';
-    case 'ALLOW': return '#51cf66';
-    default: return '#868e96';
+    case 'BLOCK': return '#c0392b';
+    case 'STEP_UP_AUTH': return '#d35400';
+    case 'HIGH_RISK': return '#c0392b';
+    case 'MEDIUM_RISK': return '#d4a017';
+    case 'DELAY': return '#d4a017';
+    case 'CONFIRM': return '#2874a6';
+    case 'LOW_RISK': return '#1e8449';
+    case 'ALLOW': return '#1e8449';
+    default: return '#6c5b7b';
   }
 }
 
 function getScoreColor(score) {
-  if (score >= 70) return '#ff4444';
-  if (score >= 40) return '#ffaa00';
-  return '#51cf66';
+  if (score >= 70) return '#c0392b';
+  if (score >= 40) return '#d4a017';
+  return '#1e8449';
 }
 
 function getScamColor(indicator) {
-  if (indicator === 'NONE') return '#51cf66';
-  if (indicator === 'INVOICE_REDIRECTION') return '#ff4444';
-  return '#ff8c00';
+  if (indicator === 'NONE') return '#1e8449';
+  if (indicator === 'INVOICE_REDIRECTION') return '#c0392b';
+  return '#d35400';
 }
 
 function formatAction(action) {
@@ -523,113 +523,113 @@ function App() {
 const styles = {
   container: { display: 'flex', flexDirection: 'column', height: '100vh',
     fontFamily: '"Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
-    background: '#0f0f13' },
+    background: '#f8f4ef' },
   banner: {
-    background: 'linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)',
-    padding: '24px 32px', borderBottom: '1px solid rgba(212, 175, 55, 0.3)',
+    background: 'linear-gradient(135deg, #4a1942 0%, #2d1b4e 50%, #1b3a5c 100%)',
+    padding: '28px 32px', borderBottom: '3px solid #c9a84c',
     position: 'relative', overflow: 'hidden',
   },
   bannerInner: { position: 'relative', zIndex: 1, textAlign: 'center' },
-  title: { margin: 0, fontSize: '1.8rem', color: '#d4af37',
-    fontWeight: '700', letterSpacing: '2px', textTransform: 'uppercase' },
-  subtitle: { margin: '6px 0 0', fontSize: '0.9rem', color: '#a0aec0', letterSpacing: '1px' },
+  title: { margin: 0, fontSize: '1.9rem', color: '#f5e6c8',
+    fontWeight: '700', letterSpacing: '3px', textTransform: 'uppercase' },
+  subtitle: { margin: '6px 0 0', fontSize: '0.9rem', color: '#d4b896', letterSpacing: '1px' },
   bannerAccent: {
     position: 'absolute', top: 0, right: 0, width: '200px', height: '100%',
-    background: 'linear-gradient(135deg, transparent, rgba(212,175,55,0.05))',
+    background: 'linear-gradient(135deg, transparent, rgba(201,168,76,0.08))',
   },
-  tabs: { display: 'flex', background: '#1a1a2e', borderBottom: '1px solid #2d2d44', padding: '0 24px' },
+  tabs: { display: 'flex', background: '#2d1b4e', borderBottom: '1px solid #5c3d6e', padding: '0 24px' },
   tab: { padding: '14px 28px', border: 'none', background: 'transparent', fontSize: '0.9rem',
-    cursor: 'pointer', color: '#6b7280', borderBottom: '3px solid transparent',
+    cursor: 'pointer', color: '#b89cc9', borderBottom: '3px solid transparent',
     transition: 'all 0.2s ease', letterSpacing: '0.5px' },
   activeTab: { padding: '14px 28px', border: 'none', background: 'transparent', fontSize: '0.9rem',
-    cursor: 'pointer', color: '#d4af37', borderBottom: '3px solid #d4af37', fontWeight: '600',
+    cursor: 'pointer', color: '#f5e6c8', borderBottom: '3px solid #c9a84c', fontWeight: '600',
     letterSpacing: '0.5px' },
   chatArea: { flex: 1, overflowY: 'auto', padding: '24px 32px', display: 'flex',
-    flexDirection: 'column', gap: '16px', background: '#0f0f13' },
+    flexDirection: 'column', gap: '16px', background: '#f8f4ef' },
   empty: { textAlign: 'center', marginTop: '60px' },
   emptyIcon: { fontSize: '3rem', marginBottom: '12px' },
-  emptyText: { color: '#a0aec0', fontSize: '1.2rem', fontWeight: '500' },
-  emptyHint: { color: '#4a5568', fontSize: '0.9rem', marginTop: '8px' },
+  emptyText: { color: '#4a1942', fontSize: '1.2rem', fontWeight: '500' },
+  emptyHint: { color: '#7c6488', fontSize: '0.9rem', marginTop: '8px' },
   userRow: { display: 'flex', justifyContent: 'flex-end' },
   assistantRow: { display: 'flex', justifyContent: 'flex-start' },
-  userBubble: { background: 'linear-gradient(135deg, #2d2d44, #1a1a2e)', color: '#e2e8f0',
+  userBubble: { background: 'linear-gradient(135deg, #4a1942, #6b2d5b)', color: '#fdf8f0',
     padding: '12px 18px', borderRadius: '18px 18px 4px 18px', maxWidth: '70%',
-    whiteSpace: 'pre-wrap', border: '1px solid #d4af37', boxShadow: '0 2px 8px rgba(0,0,0,0.3)' },
-  assistantBubble: { background: '#1a1a2e', color: '#e2e8f0', padding: '12px 18px',
-    borderRadius: '18px 18px 18px 4px', maxWidth: '80%', border: '1px solid #2d2d44',
-    boxShadow: '0 2px 8px rgba(0,0,0,0.3)', lineHeight: 1.6 },
+    whiteSpace: 'pre-wrap', border: '1px solid #c9a84c', boxShadow: '0 3px 12px rgba(74,25,66,0.2)' },
+  assistantBubble: { background: '#ffffff', color: '#2d1b4e', padding: '12px 18px',
+    borderRadius: '18px 18px 18px 4px', maxWidth: '80%', border: '1px solid #e8ddd0',
+    boxShadow: '0 3px 12px rgba(74,25,66,0.08)', lineHeight: 1.6 },
   inputArea: { display: 'flex', gap: '10px', padding: '16px 32px',
-    background: '#1a1a2e', borderTop: '1px solid #2d2d44' },
-  input: { flex: 1, padding: '14px 20px', fontSize: '0.95rem', border: '1px solid #2d2d44',
-    borderRadius: '12px', outline: 'none', background: '#0f0f13', color: '#e2e8f0',
+    background: '#fff9f2', borderTop: '2px solid #e8ddd0' },
+  input: { flex: 1, padding: '14px 20px', fontSize: '0.95rem', border: '1px solid #d4c4b0',
+    borderRadius: '12px', outline: 'none', background: '#ffffff', color: '#2d1b4e',
     transition: 'border-color 0.2s' },
   sendBtn: { padding: '14px 22px', fontSize: '1.1rem', border: 'none',
-    background: 'linear-gradient(135deg, #d4af37, #b8960c)', color: '#0f0f13',
+    background: 'linear-gradient(135deg, #4a1942, #6b2d5b)', color: '#f5e6c8',
     borderRadius: '12px', cursor: 'pointer', fontWeight: '700' },
-  newBtn: { padding: '14px 18px', fontSize: '1rem', border: '1px solid #2d2d44',
-    background: '#0f0f13', color: '#a0aec0', borderRadius: '12px', cursor: 'pointer' },
+  newBtn: { padding: '14px 18px', fontSize: '1rem', border: '1px solid #d4c4b0',
+    background: '#ffffff', color: '#4a1942', borderRadius: '12px', cursor: 'pointer' },
 };
 
 const ipStyles = {
-  container: { flex: 1, overflowY: 'auto', padding: '28px 32px', background: '#0f0f13' },
-  inputSection: { background: '#1a1a2e', borderRadius: '16px', padding: '28px',
-    border: '1px solid #2d2d44', marginBottom: '24px', boxShadow: '0 4px 16px rgba(0,0,0,0.4)' },
-  sectionTitle: { margin: '0 0 8px', fontSize: '1.4rem', color: '#d4af37', fontWeight: '600' },
-  description: { margin: '0 0 20px', color: '#718096', fontSize: '0.9rem', lineHeight: 1.5 },
+  container: { flex: 1, overflowY: 'auto', padding: '28px 32px', background: '#f8f4ef' },
+  inputSection: { background: '#ffffff', borderRadius: '16px', padding: '28px',
+    border: '1px solid #e8ddd0', marginBottom: '24px', boxShadow: '0 4px 20px rgba(74,25,66,0.08)' },
+  sectionTitle: { margin: '0 0 8px', fontSize: '1.4rem', color: '#4a1942', fontWeight: '600' },
+  description: { margin: '0 0 20px', color: '#7c6488', fontSize: '0.9rem', lineHeight: 1.5 },
   inputRow: { display: 'flex', gap: '10px', marginBottom: '14px' },
-  ipInput: { flex: 2, padding: '14px 18px', fontSize: '0.95rem', border: '1px solid #2d2d44',
-    borderRadius: '10px', outline: 'none', background: '#0f0f13', color: '#e2e8f0' },
-  amountInput: { flex: 1, padding: '14px 18px', fontSize: '0.95rem', border: '1px solid #2d2d44',
-    borderRadius: '10px', outline: 'none', background: '#0f0f13', color: '#e2e8f0' },
+  ipInput: { flex: 2, padding: '14px 18px', fontSize: '0.95rem', border: '1px solid #d4c4b0',
+    borderRadius: '10px', outline: 'none', background: '#fdf8f0', color: '#2d1b4e' },
+  amountInput: { flex: 1, padding: '14px 18px', fontSize: '0.95rem', border: '1px solid #d4c4b0',
+    borderRadius: '10px', outline: 'none', background: '#fdf8f0', color: '#2d1b4e' },
   checkBtn: { padding: '14px 24px', fontSize: '0.9rem', border: 'none',
-    background: 'linear-gradient(135deg, #d4af37, #b8960c)', color: '#0f0f13',
+    background: 'linear-gradient(135deg, #4a1942, #6b2d5b)', color: '#f5e6c8',
     borderRadius: '10px', cursor: 'pointer', fontWeight: '700', whiteSpace: 'nowrap',
     letterSpacing: '0.5px' },
   sampleIps: { display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' },
-  sampleLabel: { fontSize: '0.8rem', color: '#718096' },
-  sampleBtn: { padding: '6px 14px', fontSize: '0.78rem', border: '1px solid #2d2d44',
-    background: '#0f0f13', color: '#a0aec0', borderRadius: '20px', cursor: 'pointer',
+  sampleLabel: { fontSize: '0.8rem', color: '#7c6488' },
+  sampleBtn: { padding: '6px 14px', fontSize: '0.78rem', border: '1px solid #d4c4b0',
+    background: '#fdf8f0', color: '#4a1942', borderRadius: '20px', cursor: 'pointer',
     transition: 'all 0.2s' },
-  panel: { background: '#1a1a2e', borderRadius: '16px', padding: '28px',
-    border: '1px solid #2d2d44', marginBottom: '24px', boxShadow: '0 4px 16px rgba(0,0,0,0.4)' },
-  header: { fontSize: '1.1rem', fontWeight: '600', color: '#d4af37',
-    marginBottom: '20px', paddingBottom: '10px', borderBottom: '1px solid #2d2d44' },
-  loading: { textAlign: 'center', padding: '24px', color: '#718096' },
+  panel: { background: '#ffffff', borderRadius: '16px', padding: '28px',
+    border: '1px solid #e8ddd0', marginBottom: '24px', boxShadow: '0 4px 20px rgba(74,25,66,0.08)' },
+  header: { fontSize: '1.1rem', fontWeight: '600', color: '#4a1942',
+    marginBottom: '20px', paddingBottom: '10px', borderBottom: '2px solid #e8ddd0' },
+  loading: { textAlign: 'center', padding: '24px', color: '#7c6488' },
   grid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))',
     gap: '14px', marginBottom: '20px' },
-  card: { background: '#0f0f13', borderRadius: '12px', padding: '16px 20px',
-    border: '1px solid #2d2d44' },
-  cardTitle: { fontSize: '0.7rem', color: '#718096', textTransform: 'uppercase',
+  card: { background: '#fdf8f0', borderRadius: '12px', padding: '16px 20px',
+    border: '1px solid #e8ddd0' },
+  cardTitle: { fontSize: '0.7rem', color: '#7c6488', textTransform: 'uppercase',
     letterSpacing: '0.08em', marginBottom: '6px', fontWeight: '600' },
-  cardValue: { fontSize: '1rem', color: '#e2e8f0', fontWeight: '500' },
+  cardValue: { fontSize: '1rem', color: '#2d1b4e', fontWeight: '500' },
   flagsSection: { marginBottom: '20px' },
-  flagsTitle: { fontSize: '0.8rem', fontWeight: '700', color: '#a0aec0', marginBottom: '10px',
+  flagsTitle: { fontSize: '0.8rem', fontWeight: '700', color: '#4a1942', marginBottom: '10px',
     textTransform: 'uppercase', letterSpacing: '0.05em' },
   flags: { display: 'flex', gap: '8px', flexWrap: 'wrap' },
   badge: { padding: '6px 12px', borderRadius: '8px', fontSize: '0.78rem', fontWeight: '600' },
   factorsSection: { marginBottom: '20px' },
   factors: { display: 'flex', gap: '8px', flexWrap: 'wrap' },
   factorBadge: { padding: '5px 12px', borderRadius: '6px', fontSize: '0.72rem',
-    background: '#2d1f00', color: '#d4af37', border: '1px solid #5c4a1e',
+    background: '#f5ecd7', color: '#8b6914', border: '1px solid #c9a84c',
     fontFamily: '"JetBrains Mono", monospace', fontWeight: '500' },
   actionsSection: { marginBottom: '20px' },
-  actionsList: { margin: '4px 0', paddingLeft: '20px', fontSize: '0.88rem', color: '#e2e8f0', lineHeight: 1.8 },
-  timestamp: { fontSize: '0.72rem', color: '#4a5568', textAlign: 'right', fontStyle: 'italic' },
-  fullAssessment: { background: '#1a1a2e', borderRadius: '16px', padding: '28px',
-    border: '1px solid #2d2d44', marginBottom: '24px', boxShadow: '0 4px 16px rgba(0,0,0,0.4)' },
+  actionsList: { margin: '4px 0', paddingLeft: '20px', fontSize: '0.88rem', color: '#2d1b4e', lineHeight: 1.8 },
+  timestamp: { fontSize: '0.72rem', color: '#9b8a9e', textAlign: 'right', fontStyle: 'italic' },
+  fullAssessment: { background: '#ffffff', borderRadius: '16px', padding: '28px',
+    border: '1px solid #e8ddd0', marginBottom: '24px', boxShadow: '0 4px 20px rgba(74,25,66,0.08)' },
   breakdown: { marginTop: '20px' },
   breakdownGrid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(150px, 1fr))', gap: '10px' },
   breakdownItem: { display: 'flex', justifyContent: 'space-between', padding: '10px 14px',
-    background: '#0f0f13', borderRadius: '8px', border: '1px solid #2d2d44' },
-  breakdownLabel: { fontSize: '0.78rem', color: '#718096', textTransform: 'capitalize' },
-  breakdownValue: { fontSize: '0.9rem', fontWeight: '700', color: '#d4af37' },
+    background: '#fdf8f0', borderRadius: '8px', border: '1px solid #e8ddd0' },
+  breakdownLabel: { fontSize: '0.78rem', color: '#7c6488', textTransform: 'capitalize' },
+  breakdownValue: { fontSize: '0.9rem', fontWeight: '700', color: '#4a1942' },
 };
 
 const purposeStyles = {
   warningsSection: { marginBottom: '20px' },
-  warningBox: { background: 'linear-gradient(135deg, #3d2600, #2d1f00)', border: '1px solid #d4af37',
+  warningBox: { background: 'linear-gradient(135deg, #fff8e8, #fdf2d5)', border: '1px solid #c9a84c',
     borderRadius: '10px', padding: '14px 18px', marginBottom: '10px', fontSize: '0.88rem',
-    color: '#fbd38d', lineHeight: 1.6, boxShadow: '0 2px 8px rgba(212,175,55,0.1)' },
+    color: '#6b4c11', lineHeight: 1.6, boxShadow: '0 2px 8px rgba(201,168,76,0.12)' },
 };
 
 export default App;
