@@ -144,14 +144,32 @@ def create_gateway_role():
     })
     policy = json.dumps({
         "Version": "2012-10-17",
-        "Statement": [{
-            "Effect": "Allow",
-            "Action": [
-                "bedrock-agentcore:*", "bedrock:*", "agent-credential-provider:*",
-                "iam:PassRole", "secretsmanager:GetSecretValue", "lambda:InvokeFunction",
-            ],
-            "Resource": "*",
-        }],
+        "Statement": [
+            {
+                "Effect": "Allow",
+                "Action": [
+                    "bedrock-agentcore:InvokeGateway",
+                    "bedrock-agentcore:GetGateway",
+                    "bedrock-agentcore:ListGatewayTargets",
+                ],
+                "Resource": [f"arn:aws:bedrock-agentcore:{REGION}:{account_id}:gateway/*"],
+            },
+            {
+                "Effect": "Allow",
+                "Action": ["lambda:InvokeFunction"],
+                "Resource": [f"arn:aws:lambda:{REGION}:{account_id}:function:{PREFIX}_*"],
+            },
+            {
+                "Effect": "Allow",
+                "Action": ["secretsmanager:GetSecretValue"],
+                "Resource": [f"arn:aws:secretsmanager:{REGION}:{account_id}:secret:{COGNITO_SECRET_NAME}-*"],
+            },
+            {
+                "Effect": "Allow",
+                "Action": ["iam:PassRole"],
+                "Resource": [f"arn:aws:iam::{account_id}:role/agentcore-{PREFIX}-*"],
+            },
+        ],
     })
     try:
         resp = iam.create_role(RoleName=GATEWAY_ROLE_NAME, AssumeRolePolicyDocument=trust)

@@ -82,12 +82,15 @@ def _agent_role_policy(agent_name):
             {
                 "Effect": "Allow",
                 "Action": ["bedrock:InvokeModel", "bedrock:InvokeModelWithResponseStream"],
-                "Resource": "*",
+                "Resource": [
+                    f"arn:aws:bedrock:{REGION}::foundation-model/*",
+                    f"arn:aws:bedrock:{REGION}:{account_id}:inference-profile/*",
+                ],
             },
             {
                 "Effect": "Allow",
-                "Action": ["ecr:BatchGetImage", "ecr:GetDownloadUrlForLayer", "ecr:GetAuthorizationToken"],
-                "Resource": [f"arn:aws:ecr:{REGION}:{account_id}:repository/*"],
+                "Action": ["ecr:BatchGetImage", "ecr:GetDownloadUrlForLayer"],
+                "Resource": [f"arn:aws:ecr:{REGION}:{account_id}:repository/bedrock-agentcore-{PREFIX}_*"],
             },
             {
                 "Effect": "Allow",
@@ -123,13 +126,22 @@ def _agent_role_policy(agent_name):
             },
             {
                 "Effect": "Allow",
-                "Action": ["bedrock-agentcore:*", "iam:PassRole"],
-                "Resource": "*",
+                "Action": [
+                    "bedrock-agentcore:InvokeAgentRuntime",
+                    "bedrock-agentcore:GetAgentRuntime",
+                    "bedrock-agentcore:ListAgentRuntimes",
+                ],
+                "Resource": [f"arn:aws:bedrock-agentcore:{REGION}:{account_id}:runtime/{PREFIX}_*"],
             },
             {
                 "Effect": "Allow",
-                "Action": "cognito-idp:*",
-                "Resource": "*",
+                "Action": ["iam:PassRole"],
+                "Resource": [f"arn:aws:iam::{account_id}:role/agentcore-{PREFIX}-{agent_name}-role"],
+            },
+            {
+                "Effect": "Allow",
+                "Action": ["cognito-idp:InitiateAuth", "cognito-idp:DescribeUserPoolClient"],
+                "Resource": [f"arn:aws:cognito-idp:{REGION}:{account_id}:userpool/{COGNITO_POOL_ID}"],
             },
             {
                 "Effect": "Allow",
@@ -172,16 +184,14 @@ def create_agent_role(agent_name):
         else:
             raise
     iam.put_role_policy(RoleName=role_name, PolicyName="AgentCorePolicy", PolicyDocument=policy)
-    iam.attach_role_policy(RoleName=role_name, PolicyArn="arn:aws:iam::aws:policy/AmazonBedrockFullAccess")
-    iam.attach_role_policy(RoleName=role_name, PolicyArn="arn:aws:iam::aws:policy/AWSMarketplaceFullAccess")
-    print(f"  ✅ Attached AmazonBedrockFullAccess and AWSMarketplaceFullAccess to {role_name}")
+    print(f"  ✅ Attached inline AgentCorePolicy to {role_name}")
     return resp["Role"]["Arn"], role_name
 
 
 # ---------------------------------------------------------------------------
 # Agent source scaffolding
 # ---------------------------------------------------------------------------
-FLIGHT_AGENT_CODE = f'''
+FLIGHT_AGENT_CODE = '''
 import os, json, logging, boto3, requests, time
 from boto3.session import Session
 from strands import Agent
@@ -195,11 +205,19 @@ logging.getLogger("strands").setLevel(logging.INFO)
 
 app = BedrockAgentCoreApp()
 
-REGION = os.environ.get("AWS_DEFAULT_REGION", "{REGION}")
-COGNITO_POOL_ID = "{COGNITO_POOL_ID}"
-COGNITO_SECRET_NAME = "{COGNITO_SECRET_NAME}"
-COGNITO_RESOURCE_SERVER_ID = "{COGNITO_RESOURCE_SERVER_ID}"
-GATEWAY_URL = "{GATEWAY_URL}"
+# Load config from agent_env.json if environment variables are not set
+_config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "agent_env.json")
+if os.path.exists(_config_path):
+    with open(_config_path) as _f:
+        _env_config = json.load(_f)
+    for _key, _val in _env_config.items():
+        os.environ.setdefault(_key, _val)
+
+REGION = os.environ.get("AWS_DEFAULT_REGION", "us-east-1")
+COGNITO_POOL_ID = os.environ["COGNITO_POOL_ID"]
+COGNITO_SECRET_NAME = os.environ["COGNITO_SECRET_NAME"]
+COGNITO_RESOURCE_SERVER_ID = os.environ["COGNITO_RESOURCE_SERVER_ID"]
+GATEWAY_URL = os.environ["GATEWAY_URL"]
 
 def _get_cognito_credentials():
     """Fetch Cognito client credentials from AWS Secrets Manager."""
@@ -210,20 +228,20 @@ def _get_cognito_credentials():
 def get_token():
     client_id, client_secret = _get_cognito_credentials()
     pool_no_underscore = COGNITO_POOL_ID.replace("_", "")
-    url = f"https://{{pool_no_underscore}}.auth.{{REGION}}.amazoncognito.com/oauth2/token"
-    scope = f"{{COGNITO_RESOURCE_SERVER_ID}}/gateway:read {{COGNITO_RESOURCE_SERVER_ID}}/gateway:write"
-    resp = requests.post(url, headers={{"Content-Type": "application/x-www-form-urlencoded"}}, data={{
+    url = f"https://{pool_no_underscore}.auth.{REGION}.amazoncognito.com/oauth2/token"
+    scope = f"{COGNITO_RESOURCE_SERVER_ID}/gateway:read {COGNITO_RESOURCE_SERVER_ID}/gateway:write"
+    resp = requests.post(url, headers={"Content-Type": "application/x-www-form-urlencoded"}, data={
         "grant_type": "client_credentials",
         "client_id": client_id,
         "client_secret": client_secret,
         "scope": scope,
-    }})
+    })
     resp.raise_for_status()
     return resp.json()["access_token"]
 
 def create_transport():
     token = get_token()
-    return streamablehttp_client(f"{{GATEWAY_URL}}", headers={{"Authorization": f"Bearer {{token}}"}})
+    return streamablehttp_client(f"{GATEWAY_URL}", headers={"Authorization": f"Bearer {token}"})
 
 client = MCPClient(create_transport)
 model = BedrockModel(model_id="us.anthropic.claude-opus-4-5-20251101-v1:0")
@@ -231,7 +249,7 @@ model = BedrockModel(model_id="us.anthropic.claude-opus-4-5-20251101-v1:0")
 with client:
     tools = client.list_tools_sync()
     agent = Agent(model=model, tools=tools)
-    print(f"Flight agent tools: {{agent.tool_names}}")
+    print(f"Flight agent tools: {agent.tool_names}")
 
     @app.entrypoint
     def flight_agent_entrypoint(payload):
@@ -245,7 +263,7 @@ FORMATTING: Never use markdown tables. Always present flight results as a number
   - Route: <origin> → <destination>
   - Duration: <duration> hours
   - Class: <seat_class> | Price: $<price>"""
-        response = agent(f"{{system}}\\n\\nUser: {{user_input}}")
+        response = agent(f"{system}\\n\\nUser: {user_input}")
         content = response.message.get("content", [])
         return content[0].get("text", "No response") if content else "No response"
 
@@ -343,13 +361,16 @@ AGENT_REQUIREMENTS = "strands-agents\nstrands-agents-tools\nuv\nboto3\nbedrock-a
 FLIGHT_REQUIREMENTS = AGENT_REQUIREMENTS + "requests\n"
 
 
-def write_agent_dir(base_dir, filename, code, requirements):
-    """Create a temp agent directory with entrypoint + requirements.txt."""
+def write_agent_dir(base_dir, filename, code, requirements, env_vars=None):
+    """Create a temp agent directory with entrypoint + requirements.txt + env config."""
     os.makedirs(base_dir, exist_ok=True)
     with open(os.path.join(base_dir, filename), "w") as f:
         f.write(code)
     with open(os.path.join(base_dir, "requirements.txt"), "w") as f:
         f.write(requirements)
+    if env_vars:
+        with open(os.path.join(base_dir, "agent_env.json"), "w") as f:
+            json.dump(env_vars, f, indent=2)
     return base_dir
 
 
@@ -424,9 +445,15 @@ def main():
     # --- 2. Scaffold agent directories ---
     print("\n📁 Step 2: Preparing agent source code...")
     staging = os.path.join(SCRIPT_DIR, "_agent_staging")
+    flight_env_vars = {
+        "COGNITO_POOL_ID": COGNITO_POOL_ID,
+        "COGNITO_SECRET_NAME": COGNITO_SECRET_NAME,
+        "COGNITO_RESOURCE_SERVER_ID": COGNITO_RESOURCE_SERVER_ID,
+        "GATEWAY_URL": GATEWAY_URL,
+    }
     flight_dir = write_agent_dir(
         os.path.join(staging, "flight_agent"), "flight_agent.py",
-        FLIGHT_AGENT_CODE, FLIGHT_REQUIREMENTS,
+        FLIGHT_AGENT_CODE, FLIGHT_REQUIREMENTS, env_vars=flight_env_vars,
     )
     supervisor_dir = write_agent_dir(
         os.path.join(staging, "supervisor_agent"), "supervisor_agent.py",

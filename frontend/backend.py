@@ -35,7 +35,17 @@ AGENT_ARN = config["supervisor_agent_arn"]
 client = boto3.client("bedrock-agentcore", region_name=REGION, config=Config(read_timeout=300))
 
 app = FastAPI()
-app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+
+# Restrict CORS to known frontend origins
+ALLOWED_ORIGINS = os.environ.get(
+    "CORS_ALLOWED_ORIGINS", "http://localhost:3000,http://localhost:8000"
+).split(",")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=ALLOWED_ORIGINS,
+    allow_methods=["GET", "POST"],
+    allow_headers=["Content-Type", "Authorization"],
+)
 
 
 @app.post("/api/purpose-analysis")

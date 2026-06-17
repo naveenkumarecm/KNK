@@ -6,6 +6,7 @@ __pycache__/
 dist/
 venv/
 .env
+.venv/
 
 # Node
 node_modules/
@@ -24,3 +25,12 @@ lambdas/*.zip
 # IDE
 .vscode/
 .idea/
+
+# Sensitive config (contains account IDs, ARNs, Cognito pool IDs)
+config.json
+
+# Agent environment config (generated at deploy time with infrastructure identifiers)
+_agent_staging/**/agent_env.json
+
+# Agent staging (contains infrastructure-specific details)
+_agent_staging/**/.bedrock_agentcore.yaml
