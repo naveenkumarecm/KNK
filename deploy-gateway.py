@@ -325,6 +325,8 @@ def create_gateway(gateway_role_arn, cognito_info):
                     # Update authorizer to match current Cognito credentials
                     gateway_client.update_gateway(
                         gatewayIdentifier=gw_id,
+                        name=GATEWAY_NAME,
+                        roleArn=gateway_role_arn,
                         authorizerType="CUSTOM_JWT",
                         authorizerConfiguration=auth_config,
                     )
