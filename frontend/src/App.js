@@ -243,10 +243,17 @@ function App() {
   const [purposeResult, setPurposeResult] = useState(null);
   const [purposeLoading, setPurposeLoading] = useState(false);
   const messagesEndRef = useRef(null);
+  const inputRef = useRef(null);
 
   useEffect(() => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
   }, [messages]);
+
+  useEffect(() => {
+    if (!loading && activeTab === 'chat') {
+      inputRef.current?.focus();
+    }
+  }, [loading, activeTab]);
 
   const sendMessage = async () => {
     const prompt = input.trim();
@@ -391,7 +398,7 @@ function App() {
           </div>
           <div style={styles.inputArea}>
             <button onClick={newSession} style={styles.newBtn} title="New session">🔄</button>
-            <input style={styles.input} value={input} onChange={e => setInput(e.target.value)}
+            <input ref={inputRef} style={styles.input} value={input} onChange={e => setInput(e.target.value)}
               onKeyDown={e => e.key === 'Enter' && sendMessage()}
               placeholder="e.g. Find flights from London to New York on April 1st" disabled={loading} />
             <button onClick={sendMessage} style={styles.sendBtn} disabled={loading}>

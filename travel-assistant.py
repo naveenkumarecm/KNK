@@ -83,8 +83,9 @@ def _agent_role_policy(agent_name):
                 "Effect": "Allow",
                 "Action": ["bedrock:InvokeModel", "bedrock:InvokeModelWithResponseStream"],
                 "Resource": [
-                    f"arn:aws:bedrock:{REGION}::foundation-model/*",
+                    f"arn:aws:bedrock:*::foundation-model/*",
                     f"arn:aws:bedrock:{REGION}:{account_id}:inference-profile/*",
+                    f"arn:aws:bedrock:*:{account_id}:inference-profile/*",
                 ],
             },
             {
@@ -244,7 +245,7 @@ def create_transport():
     return streamablehttp_client(f"{GATEWAY_URL}", headers={"Authorization": f"Bearer {token}"})
 
 client = MCPClient(create_transport)
-model = BedrockModel(model_id="us.anthropic.claude-opus-4-5-20251101-v1:0")
+model = BedrockModel(model_id="us.anthropic.claude-sonnet-4-5-20250929-v1:0")
 
 with client:
     tools = client.list_tools_sync()
@@ -312,7 +313,7 @@ def call_flight_agent(user_query):
     except Exception as e:
         return str(e)
 
-model = BedrockModel(model_id="us.anthropic.claude-opus-4-5-20251101-v1:0")
+model = BedrockModel(model_id="us.anthropic.claude-sonnet-4-5-20250929-v1:0")
 agent = Agent(
     model=model,
     system_prompt="""You are a travel planning supervisor. Coordinate with the flight agent to help users plan trips.

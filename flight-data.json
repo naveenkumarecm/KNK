@@ -1498,5 +1498,515 @@
       }
     },
     "duration": 13.3
+  },
+  {
+    "airline": "IndiGo",
+    "flight_number": "6E 201",
+    "origin": "Delhi (DEL)",
+    "destination": "Mumbai (BOM)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 75
+      },
+      "business": {
+        "price_per_seat": 210
+      }
+    },
+    "duration": 2.1
+  },
+  {
+    "airline": "IndiGo",
+    "flight_number": "6E 202",
+    "origin": "Mumbai (BOM)",
+    "destination": "Delhi (DEL)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 78
+      },
+      "business": {
+        "price_per_seat": 215
+      }
+    },
+    "duration": 2.1
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 201",
+    "origin": "Delhi (DEL)",
+    "destination": "Bengaluru (BLR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 95
+      },
+      "business": {
+        "price_per_seat": 275
+      }
+    },
+    "duration": 2.7
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 202",
+    "origin": "Bengaluru (BLR)",
+    "destination": "Delhi (DEL)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 92
+      },
+      "business": {
+        "price_per_seat": 268
+      }
+    },
+    "duration": 2.7
+  },
+  {
+    "airline": "IndiGo",
+    "flight_number": "6E 203",
+    "origin": "Delhi (DEL)",
+    "destination": "Chennai (MAA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 88
+      },
+      "business": {
+        "price_per_seat": 250
+      }
+    },
+    "duration": 2.8
+  },
+  {
+    "airline": "IndiGo",
+    "flight_number": "6E 204",
+    "origin": "Chennai (MAA)",
+    "destination": "Delhi (DEL)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 85
+      },
+      "business": {
+        "price_per_seat": 245
+      }
+    },
+    "duration": 2.8
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 203",
+    "origin": "Mumbai (BOM)",
+    "destination": "Bengaluru (BLR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 65
+      },
+      "business": {
+        "price_per_seat": 185
+      }
+    },
+    "duration": 1.8
+  },
+  {
+    "airline": "IndiGo",
+    "flight_number": "6E 205",
+    "origin": "Bengaluru (BLR)",
+    "destination": "Mumbai (BOM)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 68
+      },
+      "business": {
+        "price_per_seat": 190
+      }
+    },
+    "duration": 1.8
+  },
+  {
+    "airline": "IndiGo",
+    "flight_number": "6E 206",
+    "origin": "Mumbai (BOM)",
+    "destination": "Chennai (MAA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 62
+      },
+      "business": {
+        "price_per_seat": 175
+      }
+    },
+    "duration": 1.7
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 204",
+    "origin": "Chennai (MAA)",
+    "destination": "Mumbai (BOM)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 60
+      },
+      "business": {
+        "price_per_seat": 170
+      }
+    },
+    "duration": 1.7
+  },
+  {
+    "airline": "IndiGo",
+    "flight_number": "6E 207",
+    "origin": "Delhi (DEL)",
+    "destination": "Hyderabad (HYD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 82
+      },
+      "business": {
+        "price_per_seat": 235
+      }
+    },
+    "duration": 2.2
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 205",
+    "origin": "Hyderabad (HYD)",
+    "destination": "Delhi (DEL)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 80
+      },
+      "business": {
+        "price_per_seat": 230
+      }
+    },
+    "duration": 2.2
+  },
+  {
+    "airline": "IndiGo",
+    "flight_number": "6E 208",
+    "origin": "Bengaluru (BLR)",
+    "destination": "Hyderabad (HYD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 45
+      },
+      "business": {
+        "price_per_seat": 130
+      }
+    },
+    "duration": 1.2
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 206",
+    "origin": "Hyderabad (HYD)",
+    "destination": "Bengaluru (BLR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 48
+      },
+      "business": {
+        "price_per_seat": 135
+      }
+    },
+    "duration": 1.2
+  },
+  {
+    "airline": "IndiGo",
+    "flight_number": "6E 209",
+    "origin": "Chennai (MAA)",
+    "destination": "Bengaluru (BLR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 42
+      },
+      "business": {
+        "price_per_seat": 120
+      }
+    },
+    "duration": 1.0
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 207",
+    "origin": "Bengaluru (BLR)",
+    "destination": "Chennai (MAA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 40
+      },
+      "business": {
+        "price_per_seat": 115
+      }
+    },
+    "duration": 1.0
+  },
+  {
+    "airline": "IndiGo",
+    "flight_number": "6E 210",
+    "origin": "Mumbai (BOM)",
+    "destination": "Hyderabad (HYD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 55
+      },
+      "business": {
+        "price_per_seat": 155
+      }
+    },
+    "duration": 1.4
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 208",
+    "origin": "Hyderabad (HYD)",
+    "destination": "Mumbai (BOM)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 58
+      },
+      "business": {
+        "price_per_seat": 160
+      }
+    },
+    "duration": 1.4
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 209",
+    "origin": "Delhi (DEL)",
+    "destination": "Kolkata (CCU)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 72
+      },
+      "business": {
+        "price_per_seat": 205
+      }
+    },
+    "duration": 2.3
+  },
+  {
+    "airline": "IndiGo",
+    "flight_number": "6E 211",
+    "origin": "Kolkata (CCU)",
+    "destination": "Delhi (DEL)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 70
+      },
+      "business": {
+        "price_per_seat": 200
+      }
+    },
+    "duration": 2.3
+  },
+  {
+    "airline": "IndiGo",
+    "flight_number": "6E 212",
+    "origin": "Bengaluru (BLR)",
+    "destination": "Kolkata (CCU)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 85
+      },
+      "business": {
+        "price_per_seat": 240
+      }
+    },
+    "duration": 2.5
+  },
+  {
+    "airline": "Air India",
+    "flight_number": "AI 210",
+    "origin": "Kolkata (CCU)",
+    "destination": "Bengaluru (BLR)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 82
+      },
+      "business": {
+        "price_per_seat": 235
+      }
+    },
+    "duration": 2.5
+  },
+  {
+    "airline": "Delta",
+    "flight_number": "DL 201",
+    "origin": "New York (JFK)",
+    "destination": "Chicago (ORD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 145
+      },
+      "business": {
+        "price_per_seat": 420
+      }
+    },
+    "duration": 2.8
+  },
+  {
+    "airline": "United",
+    "flight_number": "UA 201",
+    "origin": "Chicago (ORD)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 148
+      },
+      "business": {
+        "price_per_seat": 425
+      }
+    },
+    "duration": 2.8
+  },
+  {
+    "airline": "American Airlines",
+    "flight_number": "AA 201",
+    "origin": "New York (JFK)",
+    "destination": "Miami (MIA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 165
+      },
+      "business": {
+        "price_per_seat": 475
+      }
+    },
+    "duration": 3.2
+  },
+  {
+    "airline": "Delta",
+    "flight_number": "DL 202",
+    "origin": "Miami (MIA)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 160
+      },
+      "business": {
+        "price_per_seat": 465
+      }
+    },
+    "duration": 3.2
+  },
+  {
+    "airline": "United",
+    "flight_number": "UA 202",
+    "origin": "Los Angeles (LAX)",
+    "destination": "Chicago (ORD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 175
+      },
+      "business": {
+        "price_per_seat": 510
+      }
+    },
+    "duration": 4.0
+  },
+  {
+    "airline": "American Airlines",
+    "flight_number": "AA 202",
+    "origin": "Chicago (ORD)",
+    "destination": "Los Angeles (LAX)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 180
+      },
+      "business": {
+        "price_per_seat": 520
+      }
+    },
+    "duration": 4.0
+  },
+  {
+    "airline": "Delta",
+    "flight_number": "DL 203",
+    "origin": "Los Angeles (LAX)",
+    "destination": "San Francisco (SFO)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 85
+      },
+      "business": {
+        "price_per_seat": 245
+      }
+    },
+    "duration": 1.3
+  },
+  {
+    "airline": "United",
+    "flight_number": "UA 203",
+    "origin": "San Francisco (SFO)",
+    "destination": "Los Angeles (LAX)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 82
+      },
+      "business": {
+        "price_per_seat": 240
+      }
+    },
+    "duration": 1.3
+  },
+  {
+    "airline": "United",
+    "flight_number": "UA 204",
+    "origin": "San Francisco (SFO)",
+    "destination": "New York (JFK)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 220
+      },
+      "business": {
+        "price_per_seat": 650
+      }
+    },
+    "duration": 5.5
+  },
+  {
+    "airline": "Delta",
+    "flight_number": "DL 204",
+    "origin": "New York (JFK)",
+    "destination": "San Francisco (SFO)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 225
+      },
+      "business": {
+        "price_per_seat": 660
+      }
+    },
+    "duration": 5.5
+  },
+  {
+    "airline": "American Airlines",
+    "flight_number": "AA 203",
+    "origin": "Chicago (ORD)",
+    "destination": "Miami (MIA)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 135
+      },
+      "business": {
+        "price_per_seat": 395
+      }
+    },
+    "duration": 3.0
+  },
+  {
+    "airline": "Delta",
+    "flight_number": "DL 205",
+    "origin": "Miami (MIA)",
+    "destination": "Chicago (ORD)",
+    "seat_class_available": {
+      "economy": {
+        "price_per_seat": 130
+      },
+      "business": {
+        "price_per_seat": 385
+      }
+    },
+    "duration": 3.0
   }
 ]

@@ -39,7 +39,7 @@ def call_flight_agent(user_query):
     except Exception as e:
         return str(e)
 
-model = BedrockModel(model_id="us.anthropic.claude-opus-4-5-20251101-v1:0")
+model = BedrockModel(model_id="us.anthropic.claude-sonnet-4-5-20250929-v1:0")
 agent = Agent(
     model=model,
     system_prompt="""You are a travel planning supervisor. Coordinate with the flight agent to help users plan trips.

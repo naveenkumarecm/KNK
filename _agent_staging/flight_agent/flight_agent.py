@@ -12,11 +12,19 @@ logging.getLogger("strands").setLevel(logging.INFO)
 
 app = BedrockAgentCoreApp()
 
+# Load config from agent_env.json if environment variables are not set
+_config_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "agent_env.json")
+if os.path.exists(_config_path):
+    with open(_config_path) as _f:
+        _env_config = json.load(_f)
+    for _key, _val in _env_config.items():
+        os.environ.setdefault(_key, _val)
+
 REGION = os.environ.get("AWS_DEFAULT_REGION", "us-east-1")
-COGNITO_POOL_ID = "us-east-1_78AwwyhzU"
-COGNITO_SECRET_NAME = "travel-assistant/cognito-credentials"
-COGNITO_RESOURCE_SERVER_ID = "exec-agentcore-gateway-id"
-GATEWAY_URL = "https://exec-travellerappgwforlambda-t5xykp5kjs.gateway.bedrock-agentcore.us-east-1.amazonaws.com/mcp"
+COGNITO_POOL_ID = os.environ["COGNITO_POOL_ID"]
+COGNITO_SECRET_NAME = os.environ["COGNITO_SECRET_NAME"]
+COGNITO_RESOURCE_SERVER_ID = os.environ["COGNITO_RESOURCE_SERVER_ID"]
+GATEWAY_URL = os.environ["GATEWAY_URL"]
 
 def _get_cognito_credentials():
     """Fetch Cognito client credentials from AWS Secrets Manager."""
@@ -43,7 +51,7 @@ def create_transport():
     return streamablehttp_client(f"{GATEWAY_URL}", headers={"Authorization": f"Bearer {token}"})
 
 client = MCPClient(create_transport)
-model = BedrockModel(model_id="us.anthropic.claude-opus-4-5-20251101-v1:0")
+model = BedrockModel(model_id="us.anthropic.claude-sonnet-4-5-20250929-v1:0")
 
 with client:
     tools = client.list_tools_sync()
